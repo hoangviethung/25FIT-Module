@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="25fit_assets_primary_variables" inherit_id="web._assets_primary_variables" name="25FIT Assest Primary Variables " priority="15">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/variables.scss"/>
+        </xpath>
+    </template>
+
+    <template id="25fit_assets_frontend" inherit_id="web.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/snippets/s_antiseptic_model.scss"/>
+        </xpath>
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/25fit_website_theme/static/src/js/25fit_website_theme.js"/>
+        </xpath>
+    </template>
+
+    <template id="25fit_libs_css" inherit_id="web._assets_helpers">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/libs/swiper/swiper_bundle.scss"/>
+        </xpath>
+    </template>
+
+    <template id="25fit_libs_js" inherit_id="web._assets_common_minimal_js">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/25fit_website_theme/static/src/libs/swiper/swiper_bundle.js"></script>
+        </xpath>
+    </template>
+</odoo>

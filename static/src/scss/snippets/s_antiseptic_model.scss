@@ -1,0 +1,100 @@
+.antisepticModel {
+    .modal-dialog-25fit {
+        max-width: 630px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .modal-content-25fit {
+        background-color: #ffffff;
+        padding: 6px;
+        border-radius: 0;
+    }
+    .modal-header-25fit {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .modal-footer-25fit {
+        display: flex;
+        justify-content: center;
+        padding: 24px 0;
+        .btn {
+            background-color: map-get($map: $theme-colors, $key: primary);
+            border-color: map-get($map: $theme-colors, $key: primary);
+            border-radius: 1.25rem;
+        }
+        @media (max-width: 575.98px) {
+            padding: 16px 0;
+        }
+    }
+    .close-modal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        background-color: rgba($color: #ffffff, $alpha: 0.5);
+        box-shadow: unset;
+        border: 0;
+        z-index: 1;
+        i {
+            margin-left: 2px;
+            margin-bottom: 2px;
+        }
+    }
+    .block-content {
+        color: map-get($map: $theme-colors, $key: secondary-2);
+        background-color: rgba(
+            $color: map-get($map: $theme-colors, $key: primary-tint-3),
+            $alpha: 0.5
+        );
+    }
+    .desc {
+        padding: 24px;
+        text-align: center;
+        p {
+            margin-bottom: 0;
+        }
+        @media (max-width: 575.98px) {
+            padding: 16px;
+        }
+    }
+    .desc-has-bg {
+        margin-top: 24px;
+        padding: 24px;
+        background-color: map-get($map: $theme-colors, $key: primary-tint-3);
+        p {
+            text-align: center;
+            margin-bottom: 0;
+            font-weight: 700;
+        }
+        @media (max-width: 575.98px) {
+            margin-top: 16px;
+            padding: 16px;
+        }
+    }
+    .list-time {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 420px;
+        margin: 0 auto;
+        .time__item {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .time {
+                color: map-get($map: $theme-colors, $key: primary);
+                font-size: 24px;
+                font-weight: 700;
+                margin-top: 4px;
+                @media (max-width: 575.98px) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

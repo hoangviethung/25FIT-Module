@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <template id="25fit_place_into_bar" inherit_id="website.snippets" name="25fit place into bar">
+        <xpath expr="//div[@id='snippet_custom']" position="before">
+            <div id="25fit_snippet" class="o_panel">
+                <div class="o_panel_header">25FIT Snippet</div>
+                <div class="o_panel_body">
+                    <t t-snippet="25fit_website_theme.s_antiseptic_model" t-thumbnail="/25fit_website_theme/static/src/images/thumbnail-snippet-25fit.png">
+                        <keywords>Antiseptic Model</keywords>
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

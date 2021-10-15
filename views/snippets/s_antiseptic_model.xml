@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_antiseptic_model" name="Model Khử Khuẩn">
+        <div class="s_popup o_snippet_invisible" data-vcss="001">
+            <div class="antisepticModel modal fade s_popup_middle" data-show-after="5000" data-display="afterDelay" data-consents-duration="7" data-focus="false" data-backdrop="false" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-25fit">
+                    <div class="modal-content modal-content-25fit">
+                        <button class="close-modal" data-dismiss="modal">
+                            <i class="fa fa-times"></i>
+                        </button>
+                        <div class="modal-header-25fit">
+                            <img src="/25fit_website_theme/static/src/images/banner-antiseptic-model-vi.png" alt=""/>
+                        </div>
+                        <div class="modal-body-25fit">
+                            <div class="block-content">
+                                <div class="desc">
+                                    <p>Để đảm bảo tiêu chuẩn an toàn cho hội viên khi tập luyện, 25 FIT sẽ tiến hành xịt khử khuẩn hàng ngày cho studio theo <b>4 khung giờ </b>quy định như sau:</p>
+                                </div>
+                                <div class="list-time">
+                                    <div class="time__item">
+                                        <div class="icon">
+                                            <img src="/25fit_website_theme/static/src/images/time-antiseptic-01.png" alt=""/>
+                                        </div>
+                                        <div class="time">05:30</div>
+                                    </div>
+                                    <div class="time__item">
+                                        <div class="icon">
+                                            <img src="/25fit_website_theme/static/src/images/time-antiseptic-02.png" alt=""/>
+                                        </div>
+                                        <div class="time">10:00</div>
+                                    </div>
+                                    <div class="time__item">
+                                        <div class="icon">
+                                            <img src="/25fit_website_theme/static/src/images/time-antiseptic-03.png" alt=""/>
+                                        </div>
+                                        <div class="time">13:00</div>
+                                    </div>
+                                    <div class="time__item">
+                                        <div class="icon">
+                                            <img src="/25fit_website_theme/static/src/images/time-antiseptic-04.png" alt=""/>
+                                        </div>
+                                        <div class="time">16:00</div>
+                                    </div>
+                                </div>
+                                <div class="desc-has-bg">
+                                    <p>Quý hội viên vui lòng không đặt lịch vào các khung giờ này.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer-25fit">
+                            <a class="btn btn-primary" href="#">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>
