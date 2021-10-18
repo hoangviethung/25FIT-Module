@@ -2,13 +2,18 @@
 <odoo>
     <template id="25fit_assets_primary_variables" inherit_id="web._assets_primary_variables" name="25FIT Assest Primary Variables " priority="15">
         <xpath expr="//link[last()]" position="after">
-            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/variables.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/primary_variables.scss"/>
         </xpath>
     </template>
-
+    <template id="_assets_frontend_helpers" inherit_id="website._assets_frontend_helpers" priority="1">
+        <xpath expr="//link" position="before">
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/bootstrap_overridden.scss"/>
+        </xpath>
+    </template>
     <template id="25fit_assets_frontend" inherit_id="web.assets_frontend">
         <xpath expr="//link[last()]" position="after">
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/snippets/s_antiseptic_model.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/checkout.scss"/>
         </xpath>
         <xpath expr="//script[last()]" position="after">
             <script type="text/javascript" src="/25fit_website_theme/static/src/js/boot.js"/>

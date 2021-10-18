@@ -15,11 +15,13 @@
         'website',
     ],
     'data': [
+        # Assets
+        'views/assets.xml',
         # Snippets
         'views/snippets/s_antiseptic_model.xml',
         'views/snippets/snippets.xml',
-        # View
-        'views/assets.xml',
+        # Demo View
+        'views/demo-renew-plan-step-1.xml',
     ],
     'qweb': [
         'static/xml/*.xml',
