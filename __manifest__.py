@@ -21,7 +21,8 @@
         'views/snippets/s_antiseptic_model.xml',
         'views/snippets/snippets.xml',
         # Demo View
-        'views/demo-renew-plan-step-1.xml',
+        'views/demo_renew_plan_step_1.xml',
+        'views/demo_renew_plan_step_2.xml',
     ],
     'qweb': [
         'static/xml/*.xml',

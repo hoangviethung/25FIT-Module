@@ -14,9 +14,10 @@
         <xpath expr="//link[last()]" position="after">
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/snippets/s_antiseptic_model.scss"/>
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/checkout.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/forms.scss"/>
         </xpath>
         <xpath expr="//script[last()]" position="after">
-            <script type="text/javascript" src="/25fit_website_theme/static/src/js/boot.js"/>
+            <script type="text/javascript" src="/25fit_website_theme/static/src/js/checkout.js"/>
         </xpath>
     </template>
 

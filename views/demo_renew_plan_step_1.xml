@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="demo_renew_plan_step_1" name="Demo Renew Plan Step 1">
+        <t t-call="website.layout">
+            <!-- SECTION CHECKOUT-->
+            <section class="section-checkout-25fit">
+                <form action="/demo-renew-plan-step-2">
+                    <div class="container">
+                        <div class="section-checkout-wrapper-25fit">
+                            <div class="block-header-checkout-25fit">
+                                <ul>
+                                    <li>
+                                        <a href="/demo-renew-plan-step-1">
+                                            <span> Renew Plans</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="block-process-checkout-25fit">
+                                <div class="list-process">
+                                    <div class="process__item active">
+                                        <div class="icon-wrapper">
+                                            <div class="icon"></div>
+                                        </div>
+                                        <div class="text">Select Plan</div>
+                                    </div>
+                                    <div class="process__item">
+                                        <div class="icon-wrapper">
+                                            <div class="icon"></div>
+                                        </div>
+                                        <div class="text">Payment</div>
+                                    </div>
+                                    <div class="process__item">
+                                        <div class="icon-wrapper">
+                                            <div class="icon"></div>
+                                        </div>
+                                        <div class="text">E-sign</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout-wrapper-25fit">
+                                <div class="left">
+                                    <div class="block-select-plans-25fit">
+                                        <div class="select-type-plan">
+                                            <label>Select Type</label>
+                                            <div class="select">
+                                                <select>
+                                                    <option value="#">At Home1</option>
+                                                    <option value="#">At Home</option>
+                                                    <option value="#">At Home</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="list-plans">
+                                            <label class="plans__item js-check-plan checked">
+                                                <input type="radio" name="typePlan" hidden="hidden" value="gold" checked="checked" />
+                                                <div class="icon">
+                                                    <img src="/25fit_website_theme/static/src/images/plan-gold.png"/>
+                                                </div>
+                                                <div class="information">
+                                                    <div class="name">Gold - 12 Months</div>
+                                                    <div class="price">28,000,000 đ</div>
+                                                </div>
+                                            </label>
+                                            <label class="plans__item js-check-plan">
+                                                <input type="radio" name="typePlan" hidden="hidden" value="platium" />
+                                                <div class="icon">
+                                                    <img src="/25fit_website_theme/static/src/images/plan-platium.png"/>
+                                                </div>
+                                                <div class="information">
+                                                    <div class="name">Platium - 06 Months</div>
+                                                    <div class="price">48,000,000 đ</div>
+                                                </div>
+                                            </label>
+                                            <label class="plans__item js-check-plan">
+                                                <input type="radio" name="typePlan" hidden="hidden" value="diamond" />
+                                                <div class="icon">
+                                                    <img src="/25fit_website_theme/static/src/images/plan-dimond.png"/>
+                                                </div>
+                                                <div class="information">
+                                                    <div class="name">Diamond - 24 Months</div>
+                                                    <div class="price">98,000,000 đ</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="block-your-order-25fit">
+                                        <div class="title">Your Order</div>
+                                        <div class="order-name-plan">
+                                            <p>EMS Training</p>
+                                            <h4>Gold - 06 Months</h4>
+                                        </div>
+                                        <div class="checkouts">
+                                            <div class="checkout__item">
+                                                <span>Subtotal:</span>
+                                                <span>28,000,000 đ</span>
+                                            </div>
+                                        </div>
+                                        <div class="input-promotion">
+                                            <div class="input-group input-group w-100">
+                                                <input class="form-control" placeholder="Promotion code..." type="text"/>
+                                                <div class="input-group-append">
+                                                    <a class="btn btn-secondary" href="#" role="button">Apply</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="checkout__item total">
+                                            <span>Total</span>
+                                            <span>28,000,000 đ</span>
+                                        </div>
+                                        <div class="checkout__actions">
+                                            <button class="btn btn-primary">CHECKOUT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </t>
+    </template>
+</odoo>
