@@ -5,6 +5,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Offcial Receipt</title>
+        <style>
+            .clearfix {
+                overflow: auto;
+            }
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: block;
+            }
+        </style>
     </head>
     <body>
         <div
@@ -21,21 +31,16 @@
                 border: 1px solid #d1dce2;
             "
         >
-            <div
-                style="
-                    display: flex;
-                    align-items: flex-start;
-                    justify-content: space-between;
-                "
-            >
-                <div style="display: flex">
+            <div class="clearfix">
+                <div style="float: left; width: calc(60% - 16px)">
                     <img
-                        width="100"
-                        height="auto"
+                        style="float: left; width: 100px; height: auto"
                         src="../images/logo-25fit-transparent.png"
                     />
                     <ul
                         style="
+                            float: left;
+                            width: calc(100% - 124px);
                             margin: 0 0 0 24px;
                             list-style-type: none;
                             padding: 0;
@@ -52,13 +57,13 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div style="float: right; width: 40%">
                     <h1 style="font-size: 24px; margin: 0; text-align: center">
                         BIÊN NHẬN
                         <br />
                         OFFICAL RECEIPT
                     </h1>
-                    <p style="margin: 8px 0 0 0">
+                    <p style="margin: 8px 0 0 0; text-align: center">
                         Số (No.):
                         <span
                             style="
@@ -72,15 +77,8 @@
                     </p>
                 </div>
             </div>
-            <div
-                style="
-                    display: grid;
-                    grid-template-columns: 1.2fr 0.8fr;
-                    grid-column-gap: 16px;
-                    margin-top: 24px;
-                "
-            >
-                <div>
+            <div class="clearfix" style="margin-top: 24px">
+                <div style="float: left; width: calc(60% - 16px)">
                     <ul style="list-style-type: none; margin: 0; padding: 0">
                         <li style="margin-bottom: 16px">
                             <label>Chi nhánh - Branch:</label>
@@ -169,7 +167,9 @@
                         </ul>
                     </div>
                 </div>
-                <div style="border: 1px solid #e8ecef">
+                <div
+                    style="float: right; width: 40%; border: 1px solid #e8ecef"
+                >
                     <div
                         style="
                             background-color: #f6f7fb;
@@ -299,7 +299,10 @@
                             Ký tên - Sign
                         </label>
                         <div>
-                            <img width="120" src="../images/sign.png" />
+                            <img
+                                style="width: 120px; height: auto"
+                                src="../images/sign.png"
+                            />
                         </div>
                     </div>
                 </div>
