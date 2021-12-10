@@ -59,8 +59,10 @@
     }
 }
 
-.a {
-    position: absolute;
-    width: 24px;
-    height: 24px;
+.btn {
+    i {
+        ~ span {
+            margin-left: 2px;
+        }
+    }
 }

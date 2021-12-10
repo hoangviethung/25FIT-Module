@@ -23,6 +23,7 @@
         # Demo View
         'views/demo_renew_plan_step_1.xml',
         'views/demo_renew_plan_step_2.xml',
+        'views/your-booking-information.xml',
     ],
     'qweb': [
         'static/xml/*.xml',

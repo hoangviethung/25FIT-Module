@@ -13,10 +13,12 @@
     <template id="25fit_assets_frontend" inherit_id="web.assets_frontend">
         <xpath expr="//link[last()]" position="after">
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/snippets/s_antiseptic_model.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/checkout.scss"/>
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/forms.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/checkout.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/your_booking_information.scss"/>
         </xpath>
         <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/25fit_website_theme/static/src/libs/fancybox/jquery.fancybox.min.js"></script>
             <script type="text/javascript" src="/25fit_website_theme/static/src/js/checkout.js"/>
         </xpath>
     </template>
@@ -24,6 +26,7 @@
     <template id="25fit_libs_css" inherit_id="web._assets_helpers">
         <xpath expr="//link[last()]" position="after">
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/libs/swiper/swiper_bundle.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/libs/fancybox/jquery.fancybox.scss"/>
         </xpath>
     </template>
 

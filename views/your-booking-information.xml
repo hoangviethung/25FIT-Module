@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="demo_your_booking_information" name="Demo Your Booking Information">
+        <t t-call="website.layout">
+            <!-- SECTION CHECKOUT-->
+            <section class="section-your-booking-information-25fit">
+                <div class="container">
+                    <div class="booking-title-wrapper">
+                        <h1 class="your-booking-title">Booking: At Studio - Nguyễn Phước Hậu Studio Trương Định Quận 3-21-12-2021 14:30:00</h1>
+                    </div>
+                    <div class="your-booking-information-wrapper">
+                        <div class="information-header">
+                            <div class="left">
+                                <div class="information-title">Your information</div>
+                            </div>
+                            <div class="right">
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="fa fa-envelope"></i>
+                                    <span>Add to iCal/Outlook</span>
+                                </button>
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="fa fa-calendar"></i>
+                                    <span>Add to Google Calendar</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="information-body">
+                            <div class="informations">
+                                <div class="information__item">
+                                    <label>Booking ID</label>
+                                    <span>B031092</span>
+                                </div>
+                                <div class="information__item">
+                                    <label>Booking Type</label>
+                                    <span>At Studio</span>
+                                </div>
+                                <div class="information__item">
+                                    <label>Customer</label>
+                                    <span>Hoàng Việt Hùng</span>
+                                </div>
+                                <div class="information__item">
+                                    <label>Phone</label>
+                                    <span>0372491999</span>
+                                </div>
+                                <div class="information__item">
+                                    <label>When</label>
+                                    <div class="informtation__time">
+                                        <span>Tue Dec 21 2021 2:30:00 PM</span>
+                                        <i>(Timezone: Asia/Ho_Chi_Minh)</i>
+                                    </div>
+                                </div>
+                                <div class="information__item">
+                                    <label>Status</label>
+                                    <span>Reserved</span>
+                                </div>
+                                <div class="information__item">
+                                    <label>Studio</label>
+                                    <span>Studio Trương Định Quận 3</span>
+                                </div>
+                                <div class="information__item">
+                                    <label>Address</label>
+                                    <span>123 Truong Dinh, District 3, Ho Chi Minh City, Vietnam</span>
+                                </div>
+                                <div class="information__item">
+                                    <label>Note</label>
+                                    <span>Tới nợi gọi điện</span>
+                                </div>
+                            </div>
+                            <div class="booking-actions">
+                                <a href="#" class="btn btn-outline-danger">
+                                    <i class="fa fa-times"></i>
+                                    <span>Cancel</span>
+                                </a>
+                                <a href="#" class="btn btn-primary">
+                                    <i class="fa fa-check"></i>
+                                    <span>Checkin</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="your-booking-information-wrapper">
+                        <div class="information-header">
+                            <div class="left">
+                                <div class="information-title">Customer Inbody information</div>
+                            </div>
+                        </div>
+                        <div class="information-body">
+                            <table class="table-information">
+                                <tbody>
+                                    <tr>
+                                        <td>Weight</td>
+                                        <td>72.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SMM (kg)</td>
+                                        <td>72.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PBF (%)</td>
+                                        <td>72.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inbody Score (%)</td>
+                                        <td>72.2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Time</td>
+                                        <td>8.0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="your-booking-information-wrapper">
+                        <div class="information-header">
+                            <div class="left">
+                                <div class="information-title">Customer Traning Lession</div>
+                            </div>
+                        </div>
+                        <div class="information-body">
+                            <div class="tranning-lession-list">
+                                <a class="tranning-lession__item" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-0.png" data-caption="#1 Front Bicep">
+                                    <div class="item__img">
+                                        <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
+                                    </div>
+                                    <div class="item__desc">
+                                        <div class="item__name">#1 Front Biceps</div>
+                                        <div class="item__focus-zone">Focus Zone: Chest</div>
+                                    </div>
+                                </a>
+                                <a class="tranning-lession__item" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#2 Front Bicep">
+                                    <div class="item__img">
+                                        <img src="/25fit_website_theme/static/src/images/tranning-lession-1.png" />
+                                    </div>
+                                    <div class="item__desc">
+                                        <div class="item__name">#2 Front Biceps</div>
+                                        <div class="item__focus-zone">Focus Zone: Chest</div>
+                                    </div>
+                                </a>
+                                <a class="tranning-lession__item" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-0.png" data-caption="#3 Front Bicep">
+                                    <div class="item__img">
+                                        <img src="/25fit_website_theme/static/src/images/tranning-lession-1.png" />
+                                    </div>
+                                    <div class="item__desc">
+                                        <div class="item__name">#3 Front Biceps</div>
+                                        <div class="item__focus-zone">Focus Zone: Chest</div>
+                                    </div>
+                                </a>
+                                <a class="tranning-lession__item" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#4 Front Bicep">
+                                    <div class="item__img">
+                                        <img src="/25fit_website_theme/static/src/images/tranning-lession-1.png" />
+                                    </div>
+                                    <div class="item__desc">
+                                        <div class="item__name">#4 Front Biceps</div>
+                                        <div class="item__focus-zone">Focus Zone: Chest</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+    </template>
+</odoo>
