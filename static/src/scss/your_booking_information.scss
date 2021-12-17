@@ -4,18 +4,13 @@
 }
 
 .booking-title-wrapper {
-    background-color: map-get(
-        $map: $o-theme-color-palettes-custom,
-        $key: "secondary-2"
-    );
-    padding: 16px;
-    border-radius: 8px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid
+        map-get($map: $o-theme-color-palettes-custom, $key: "neutral-grey-3");
 }
 
 .your-booking-title {
-    color: #ffffff;
     font-size: 1rem;
-    text-align: center;
     font-weight: 500;
     margin: 0;
     @media (min-width: 768px) {
@@ -27,171 +22,225 @@
 }
 
 .your-booking-information-wrapper {
-    background-color: map-get(
-        $map: $o-theme-color-palettes-custom,
-        $key: "neutral-grey-4"
-    );
-    padding: 16px 12px 20px;
-    border-radius: 8px;
-    margin-top: 16px;
-    border: 1px solid
-        map-get($map: $o-theme-color-palettes-custom, $key: "neutral-grey-3");
+    margin-top: 32px;
     .information-header {
-        padding-bottom: 8px;
-        margin-bottom: 12px;
-        border-bottom: 1px solid #e5e5e5;
-        .left {
-            display: flex;
-            align-items: center;
-        }
-        .right {
-            margin-top: 8px;
-            @media (min-width: 576px) {
-                margin-top: 0;
-            }
-        }
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
         .information-title {
             font-size: 1.125rem;
             @media (min-width: 992px) {
                 font-size: 1.375rem;
             }
         }
-        .edit-information {
-            font-size: 13px;
-            color: map-get(
-                $map: $o-theme-color-palettes-custom,
-                $key: "primary"
-            );
-            padding-left: 20px;
-        }
-        @media (min-width: 576px) {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        @media (min-width: 992px) {
-            padding-bottom: 18px;
+        .btn {
+            margin-left: 16px;
         }
     }
     .information-body {
-        .information__item {
-            font-size: 13px;
+        overflow-x: auto;
+        .informations {
             display: grid;
-            grid-template-columns: 100px auto;
-            grid-column-gap: 24px;
-            label {
-                margin-bottom: 0;
-            }
-            + .information__item {
-                margin-top: 8px;
-            }
-        }
-        .informtation__time {
-            i {
-                color: map-get(
-                    $map: $o-theme-color-palettes-custom,
-                    $key: "neutral-grey-1"
-                );
-                font-size: 90%;
-                display: block;
-            }
-        }
-        .booking-actions {
-            margin-top: 16px;
-            .btn {
-                + .btn {
-                    margin-left: 8px;
-                }
-            }
-            @media (min-width: 768px) {
-                margin-top: 32px;
-            }
-        }
-        .table-information {
-            width: 100%;
-            th,
-            td {
-                font-size: 0.813rem;
-                padding: 8px;
-                border-bottom: 1px solid
-                    map-get(
-                        $map: $o-theme-color-palettes-custom,
-                        $key: "neutral-grey-3"
-                    );
-                @media (min-width: 576px) {
-                    font-size: 1rem;
-                    padding: 16px;
-                }
-            }
-        }
-        .tranning-lession-list {
-            display: grid;
+            grid-gap: 12px;
             grid-template-columns: repeat(1, 1fr);
-            grid-gap: 16px;
             @media (min-width: 992px) {
                 grid-template-columns: repeat(2, 1fr);
             }
+            @media (min-width: 1200px) {
+                grid-template-columns: repeat(3, 1fr);
+            }
         }
-        .tranning-lession__item {
-            cursor: pointer;
-            position: relative;
-            border: 1px solid
-                map-get(
-                    $map: $o-theme-color-palettes-custom,
-                    $key: "neutral-grey-3"
-                );
-            background-color: #ffffff;
+        .information__item {
+            padding: 16px;
+            box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
             border-radius: 8px;
-            overflow: hidden;
-            text-decoration: none;
-            transition: 0.3s all ease-in-out;
-            .item__img {
-                img {
-                    width: 100%;
+            table {
+                font-size: 0.875rem;
+                tr {
+                    td {
+                        padding-top: 8px;
+                        padding-bottom: 8px;
+                        border-top: 1px solid #ffffff;
+                        vertical-align: top;
+                        &:first-child {
+                            padding-right: 24px;
+                            width: 30%;
+                        }
+                        &:last-child {
+                            font-weight: 600;
+                            font-weight: 70%;
+                        }
+                    }
+                    &:first-child {
+                        td {
+                            border-top: 0;
+                            padding-top: 0;
+                        }
+                    }
+                    &:last-child {
+                        td {
+                            padding-bottom: 0;
+                        }
+                    }
                 }
             }
-            .item__desc {
-                color: map-get(
-                    $map: $o-theme-color-palettes-custom,
-                    $key: "neutral-black"
-                );
-                padding: 16px;
-                margin-top: 16px;
-                border-top: 1px solid
-                    map-get(
-                        $map: $o-theme-color-palettes-custom,
-                        $key: "neutral-grey-3"
-                    );
-            }
-            .item__name {
-                text-align: center;
+        }
+        .information__item--time {
+            color: #ffffff;
+            background-color: map-get(
+                $map: $o-theme-color-palettes-custom,
+                $key: "secondary-2"
+            );
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .date {
                 font-size: 1.125rem;
-                font-weight: 600;
             }
-            .item__focus-zone {
-                text-align: center;
+            .time {
+                font-size: 2.25rem;
+                font-weight: 700;
+                margin-top: 8px;
             }
-            &:before {
-                content: "";
-                position: absolute;
-                left: 0;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                border: 2px solid
-                    map-get(
-                        $map: $o-theme-color-palettes-custom,
-                        $key: "primary"
-                    );
-                border-radius: 8px;
-                opacity: 0;
-                transition: 0.3s all ease-in-out;
+            .time-zone {
+                font-size: 0.875rem;
+                font-style: italic;
+                margin-top: 4px;
             }
-            &:hover {
-                box-shadow: 0px 8px 24px rgba(34, 34, 34, 0.08),
-                    0px 2px 6px rgba(34, 34, 34, 0.08);
-                &:before {
-                    opacity: 1;
+        }
+        .information__item--info_booking {
+            background-color: #ffd8e7;
+        }
+        .information__item--info_user {
+            background-color: #cdf9f8;
+        }
+        .table-information {
+            width: 100%;
+            tr {
+                th,
+                td {
+                    padding: 8px;
+                    border-bottom: 1px solid
+                        map-get(
+                            $map: $o-theme-color-palettes-custom,
+                            $key: "neutral-grey-3"
+                        );
+                    @media (min-width: 576px) {
+                        padding: 16px;
+                    }
+                }
+                td {
+                    &:first-child {
+                        font-size: 0.75rem;
+                        font-weight: 700;
+                        background-color: #e8ecef;
+                        border-bottom: 1px solid #ffffff;
+                        > p {
+                            margin: 0;
+                        }
+                        > span {
+                            font-size: 0.625rem;
+                            color: map-get(
+                                $map: $o-theme-color-palettes-custom,
+                                $key: "neutral-grey-1"
+                            );
+                            font-weight: 400;
+                            margin-top: 2px;
+                        }
+                        @media (min-width: 768px) {
+                            width: 220px;
+                            font-size: 0.875rem;
+                        }
+                    }
+                    &:not(:first-child) {
+                        border-right: 1px solid
+                            map-get(
+                                $map: $o-theme-color-palettes-custom,
+                                $key: "neutral-grey-3"
+                            );
+                    }
+                }
+                &:first-child {
+                    td {
+                        border-top: 1px solid
+                            map-get(
+                                $map: $o-theme-color-palettes-custom,
+                                $key: "neutral-grey-3"
+                            );
+                    }
+                }
+                &:last-child {
+                    td {
+                        &:first-child {
+                            border-bottom: 1px solid
+                                map-get(
+                                    $map: $o-theme-color-palettes-custom,
+                                    $key: "neutral-grey-3"
+                                );
+                        }
+                    }
+                }
+            }
+            &.customer-goals {
+                tr {
+                    td {
+                        &:not(:first-child) {
+                            font-size: 0.75rem;
+                        }
+                    }
+                }
+            }
+            &.customer-body-composition-history {
+                min-width: 768px;
+                tr {
+                    td {
+                        &:not(:first-child) {
+                            text-align: center;
+                            font-size: 0.75rem;
+                            > p {
+                                font-size: 0.75rem;
+                                font-weight: 400;
+                                margin: 0;
+                            }
+                            @media (min-width: 1200px) {
+                                font-size: 1.125rem;
+                            }
+                        }
+                    }
+                }
+            }
+            &.block-lego-lessons {
+                tr {
+                    cursor: pointer;
+                    td {
+                        &:not(:first-child) {
+                            width: 140px;
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                        &:first-child {
+                            width: auto;
+                            .group-text {
+                                display: flex;
+                                align-items: center;
+                            }
+                            .number {
+                                font-size: 0.75rem;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                min-width: 24px;
+                                min-height: 24px;
+                                border: 1px solid #c4c4c4;
+                            }
+                            .name {
+                                padding-left: 8px;
+                            }
+                        }
+                    }
                 }
             }
         }

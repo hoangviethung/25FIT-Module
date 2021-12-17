@@ -10,102 +10,103 @@
                     </div>
                     <div class="your-booking-information-wrapper">
                         <div class="information-header">
-                            <div class="left">
-                                <div class="information-title">Your information</div>
-                            </div>
-                            <div class="right">
-                                <button class="btn btn-sm btn-outline-primary">
-                                    <i class="fa fa-envelope"></i>
-                                    <span>Add to iCal/Outlook</span>
-                                </button>
-                                <button class="btn btn-sm btn-outline-primary">
-                                    <i class="fa fa-calendar"></i>
-                                    <span>Add to Google Calendar</span>
-                                </button>
-                            </div>
+                            <div class="information-title">Your information</div>
                         </div>
                         <div class="information-body">
                             <div class="informations">
-                                <div class="information__item">
-                                    <label>Booking ID</label>
-                                    <span>B031092</span>
+                                <div class="information__item information__item--time">
+                                    <div class="date">Thu Oct 21, 2021</div>
+                                    <div class="time">5:30:00 PM</div>
+                                    <div class="time-zone">(timezone: Asia/Ho_Chi_Minh)</div>
                                 </div>
-                                <div class="information__item">
-                                    <label>Booking Type</label>
-                                    <span>At Studio</span>
+                                <div class="information__item information__item--info_booking">
+                                    <table>
+                                        <tr>
+                                            <td>Booking ID</td>
+                                            <td>BO30518</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Booking Type</td>
+                                            <td>At Studio</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Status</td>
+                                            <td>Reserved</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Studio</td>
+                                            <td>Studio Lý Thường Kiệt, Hà Nội</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Address</td>
+                                            <td>01 Lý Thường Kiệt, Phường Đồng Xuân, Quận Hoàn Kiếm, Thành phố Hà Nội</td>
+                                        </tr>
+                                    </table>
                                 </div>
-                                <div class="information__item">
-                                    <label>Customer</label>
-                                    <span>Hoàng Việt Hùng</span>
+                                <div class="information__item information__item--info_user">
+                                    <table>
+                                        <tr>
+                                            <td>Customer</td>
+                                            <td>Tien Le</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Phone</td>
+                                            <td>090000000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Miha Size</td>
+                                            <td>M</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Vest Size</td>
+                                            <td>V1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Note</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Internal Note</td>
+                                            <td>V1 - M2 - S</td>
+                                        </tr>
+                                    </table>
                                 </div>
-                                <div class="information__item">
-                                    <label>Phone</label>
-                                    <span>0372491999</span>
-                                </div>
-                                <div class="information__item">
-                                    <label>When</label>
-                                    <div class="informtation__time">
-                                        <span>Tue Dec 21 2021 2:30:00 PM</span>
-                                        <i>(Timezone: Asia/Ho_Chi_Minh)</i>
-                                    </div>
-                                </div>
-                                <div class="information__item">
-                                    <label>Status</label>
-                                    <span>Reserved</span>
-                                </div>
-                                <div class="information__item">
-                                    <label>Studio</label>
-                                    <span>Studio Trương Định Quận 3</span>
-                                </div>
-                                <div class="information__item">
-                                    <label>Address</label>
-                                    <span>123 Truong Dinh, District 3, Ho Chi Minh City, Vietnam</span>
-                                </div>
-                                <div class="information__item">
-                                    <label>Note</label>
-                                    <span>Tới nợi gọi điện</span>
-                                </div>
-                            </div>
-                            <div class="booking-actions">
-                                <a href="#" class="btn btn-outline-danger">
-                                    <i class="fa fa-times"></i>
-                                    <span>Cancel</span>
-                                </a>
-                                <a href="#" class="btn btn-primary">
-                                    <i class="fa fa-check"></i>
-                                    <span>Checkin</span>
-                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="your-booking-information-wrapper">
                         <div class="information-header">
-                            <div class="left">
-                                <div class="information-title">Customer Inbody information</div>
-                            </div>
+                            <div class="information-title">Customer Goals</div>
                         </div>
                         <div class="information-body">
-                            <table class="table-information">
+                            <table class="table-information customer-goals">
                                 <tbody>
                                     <tr>
-                                        <td>Weight</td>
-                                        <td>72.2</td>
+                                        <td>Particular Goals</td>
+                                        <td>
+                                            <span>Weight Loss;</span>
+                                            <span>Improve and reduce bones and joint injury;</span>
+                                            <span>Customer Note</span>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>SMM (kg)</td>
-                                        <td>72.2</td>
+                                        <td>Zones Focus</td>
+                                        <td>
+                                            <span>Arms;</span>
+                                            <span>Upper Back</span>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>PBF (%)</td>
-                                        <td>72.2</td>
+                                        <td>Health Issues</td>
+                                        <td>
+                                            <span>Knees</span>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>Inbody Score (%)</td>
-                                        <td>72.2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Time</td>
-                                        <td>8.0</td>
+                                        <td>Motivation to exercise</td>
+                                        <td>
+                                            <span>Quality of life</span>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -113,49 +114,144 @@
                     </div>
                     <div class="your-booking-information-wrapper">
                         <div class="information-header">
-                            <div class="left">
-                                <div class="information-title">Customer Traning Lession</div>
-                            </div>
+                            <div class="information-title">Customer Body Composition History</div>
                         </div>
                         <div class="information-body">
-                            <div class="tranning-lession-list">
-                                <a class="tranning-lession__item" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-0.png" data-caption="#1 Front Bicep">
-                                    <div class="item__img">
-                                        <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
-                                    </div>
-                                    <div class="item__desc">
-                                        <div class="item__name">#1 Front Biceps</div>
-                                        <div class="item__focus-zone">Focus Zone: Chest</div>
-                                    </div>
-                                </a>
-                                <a class="tranning-lession__item" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#2 Front Bicep">
-                                    <div class="item__img">
-                                        <img src="/25fit_website_theme/static/src/images/tranning-lession-1.png" />
-                                    </div>
-                                    <div class="item__desc">
-                                        <div class="item__name">#2 Front Biceps</div>
-                                        <div class="item__focus-zone">Focus Zone: Chest</div>
-                                    </div>
-                                </a>
-                                <a class="tranning-lession__item" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-0.png" data-caption="#3 Front Bicep">
-                                    <div class="item__img">
-                                        <img src="/25fit_website_theme/static/src/images/tranning-lession-1.png" />
-                                    </div>
-                                    <div class="item__desc">
-                                        <div class="item__name">#3 Front Biceps</div>
-                                        <div class="item__focus-zone">Focus Zone: Chest</div>
-                                    </div>
-                                </a>
-                                <a class="tranning-lession__item" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#4 Front Bicep">
-                                    <div class="item__img">
-                                        <img src="/25fit_website_theme/static/src/images/tranning-lession-1.png" />
-                                    </div>
-                                    <div class="item__desc">
-                                        <div class="item__name">#4 Front Biceps</div>
-                                        <div class="item__focus-zone">Focus Zone: Chest</div>
-                                    </div>
-                                </a>
-                            </div>
+                            <table class="table-information customer-body-composition-history">
+                                <tbody>
+                                    <tr>
+                                        <td>InBody Score</td>
+                                        <td>79</td>
+                                        <td>80</td>
+                                        <td>81</td>
+                                        <td>80</td>
+                                        <td>83</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Weight (kg)</td>
+                                        <td>79</td>
+                                        <td>80</td>
+                                        <td>81</td>
+                                        <td>80</td>
+                                        <td>83</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>SMM (kg)</p>
+                                            <span>Skeletal Muscle Mass</span>
+                                        </td>
+                                        <td>79</td>
+                                        <td>80</td>
+                                        <td>81</td>
+                                        <td>80</td>
+                                        <td>83</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>PBF (%)</p>
+                                            <span>Percent Body Fat</span>
+                                        </td>
+                                        <td>79</td>
+                                        <td>80</td>
+                                        <td>81</td>
+                                        <td>80</td>
+                                        <td>83</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>PBF (%)</p>
+                                            <span>Percent Body Fat</span>
+                                        </td>
+                                        <td>79</td>
+                                        <td>80</td>
+                                        <td>81</td>
+                                        <td>80</td>
+                                        <td>83</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Time</td>
+                                        <td>
+                                            <p>24/8/2021</p>
+                                            <p>06:30:00</p>
+                                        </td>
+                                        <td>
+                                            <p>24/8/2021</p>
+                                            <p>06:30:00</p>
+                                        </td>
+                                        <td>
+                                            <p>24/8/2021</p>
+                                            <p>06:30:00</p>
+                                        </td>
+                                        <td>
+                                            <p>24/8/2021</p>
+                                            <p>06:30:00</p>
+                                        </td>
+                                        <td>
+                                            <p>24/8/2021</p>
+                                            <p>06:30:00</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="your-booking-information-wrapper">
+                        <div class="information-header">
+                            <div class="information-title">Block Lego Lessons</div>
+                            <a class="btn btn-sm btn-secondary" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#1 Front Bicep">
+                                <i class="fa fa-play"></i>
+                                <span>View all</span>
+                            </a>
+                        </div>
+                        <div class="information-body">
+                            <table class="table-information block-lego-lessons">
+                                <tbody>
+                                    <tr data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#1 Front Bicep">
+                                        <td>
+                                            <div class="group-text">
+                                                <div class="number">1</div>
+                                                <div class="name">Ready Position</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
+                                        </td>
+                                    </tr>
+                                    <tr data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#2 Front Bicep">
+                                        <td>
+                                            <div class="group-text">
+                                                <div class="number">2</div>
+                                                <div class="name">Table Stand</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
+                                        </td>
+                                    </tr>
+                                    <tr data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#3 Front Bicep">
+                                        <td>
+                                            <div class="group-text">
+                                                <div class="number">3</div>
+                                                <div class="name">Front Biceps</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
+                                        </td>
+                                    </tr>
+                                    <tr data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#4 Front Bicep">
+                                        <td>
+                                            <div class="group-text">
+                                                <div class="number">4</div>
+                                                <div class="name">Front Biceps</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
