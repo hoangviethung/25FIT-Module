@@ -3,6 +3,14 @@ from odoo.addons.web.controllers.main import Home
 from odoo.http import request
 
 class Demo25FitThemeController(Home):
+    @http.route(['/demo-homepage'], type='http', auth="public", website=True, sitemap=True)
+    def DemoHomePage(self, **opt):
+        return request.render("25fit_website_theme.demo_homepage")
+
+    @http.route(['/demo-ems-training'], type='http', auth="public", website=True, sitemap=True)
+    def DemoEmsTraining(self, **opt):
+        return request.render("25fit_website_theme.demo_ems_training")
+
     @http.route(['/demo-renew-plan-step-1'], type='http', auth="public", website=True, sitemap=True)
     def DemoReviewPlanStep1(self, **opt):
         return request.render("25fit_website_theme.demo_renew_plan_step_1")

@@ -4,7 +4,7 @@
     'summary': 'This is module 25FIT Website Theme',
     'version': '14.0.0.1.0',
     'license': 'LGPL-3',
-    'category': 'Website/Website',
+    'category': 'Theme/25FIT Website Theme',
     'author': '25FIT',
     'maintainer': '25FIT',
     'company': '25FIT',
@@ -21,9 +21,11 @@
         'views/snippets/s_antiseptic_model.xml',
         'views/snippets/snippets.xml',
         # Demo View
+        'views/demo_homepage.xml',
+        'views/demo_ems_training.xml',
         'views/demo_renew_plan_step_1.xml',
         'views/demo_renew_plan_step_2.xml',
-        'views/your-booking-information.xml',
+        'views/demo_your_booking_information.xml',
     ],
     'qweb': [
         'static/xml/*.xml',

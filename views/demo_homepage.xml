@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="demo_homepage" name="Demo Home Page">
+        <t t-call="website.layout">
+            <div id="wrap">
+                <t t-raw="0"/>
+                <section class="s_text_image o_colored_level" style="position: relative;">
+                    <div class="o_we_shape o_web_editor_Rainy_08"></div>
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="pt16 pb16 o_colored_level col-lg-5 offset-lg-1">
+                                <h1 class="pb16">
+                                    <b style="font-size: 36px;">25' tập luyện mỗi tuần để có một thân hình tuyệt vời</b>
+                                </h1>
+                                <a href="https://dangky.25fit.net/dang-ky-tap-thu-25fit" class="btn btn-primary" style="text-align: center; margin-right:8px">Tập Thử</a>
+                                <a href="/about-ems" class="btn btn-primary" style="text-align: center">Xem Thêm</a>
+                            </div>
+                            <div class="col-lg-6 o_colored_level">
+                                <img src="/25fit_website_theme/static/src/images/hero-modal-01.png" class="img img-fluid mx-auto" loading="lazy"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_three_columns s_three_columns_25fit bg-200 o_colored_level pb16 pt32" style="position: relative;">
+                    <div class="o_we_shape o_web_editor_Wavy_11"></div>
+                    <section class="s_text_block o_colored_level pb40" data-snippet="s_text_block" data-name="Text">
+                        <div class="s_allow_columns o_container_small">
+                            <p style="text-align: center;">
+                                <font style="font-size: 36px;">
+                                    <b>Khách Hàng Của Chúng Tôi</b>
+                                </font>
+                            </p>
+                        </div>
+                    </section>
+                    <div class="container">
+                        <div class="row d-flex align-items-stretch">
+                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                                <div class="card bg-white h-100 border shadow">
+                                    <img class="card-img-top rounded-circle d-block mx-auto" src="/25fit_website_theme/static/src/images/chaubui.jpeg" loading="lazy" style="width: 50%; padding-top: 20px"/>
+                                    <div class="card-body">
+                                        <h3 style="text-align: center;">
+                                            <b>Châu Bùi</b>
+                                        </h3>
+                                        <font>
+                                            <p>
+                                                <font>Từ khi sử dụng dịch vụ tập luyện 25 FIT AT HOME thì Châu không thể lười được nữa rồi! Các anh huấn luyện viên cứ đến ngày đến giờ là nhắn tin nhắc “Anh chuẩn bị qua nhà em!” thì còn trốn đi đâu được nữa hả các bác? </font>
+                                            </p>
+                                        </font>
+                                        <font>
+                                            <p>
+                                                <font>Việc tập luyện theo lịch cố định cũng sẽ khiến tinh thần tập luyện của chúng ta vào guồng hơn. Giờ cứ mỗi tuần, Châu có 2 ngày tập tại nhà với 25 FIT. Tập xong mê luôn!</font>
+                                            </p>
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                                <div class="card bg-white h-100 border shadow">
+                                    <img class="card-img-top rounded-circle d-block mx-auto" src="/25fit_website_theme/static/src/images/truongthanhtruc.png" loading="lazy" style="width: 50%; padding-top: 20px"/>
+                                    <div class="card-body">
+                                        <h3 style="text-align: center;">
+                                            <b>Trương Thanh Trúc</b>
+                                        </h3>
+                                        <font>
+                                            <p>
+                                                <span>Nguồn vui và động lực mới các chị em ơi!!! Hôm nay trải nghiệm máy hỗ trợ tập gym (nghe đồn là các ce-lép Hollywood mỗi lần cần ép cân nhanh để vào vai diễn mới đều dùng "trợ thủ" này). Thật ra, bạn hú nên chạy ào đến luôn.</span>
+                                            </p>
+                                            <p>
+                                                <span>Làm gì? Làm sao? Mặc "bộ giáp" vào làm theo chỉ dẫn của PT, kích hoạt xung điện, cho hiệu quả tối đa. Điều quan trọng muốn nói là gì?</span>
+                                            </p>
+                                            <p>
+                                                <span>Chỉ với 25 phút thôi - nhanh như chớp - là đã có thể đốt calo hiệu quả, mỗi tuần chỉ cần 2 buổi tập thôi!! Và cũng không cần chuẩn bị đồ tập và giày dép. Áo "giáp" đã bao gồm bộ đồ tập rồi.</span>
+                                            </p>
+                                            <p>
+                                                <span>Các chị em cùng tham gia với Trúc để sống đẹp sống khoẻ nha.  </span>
+                                            </p>
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                                <div class="card bg-white h-100 border shadow">
+                                    <img class="card-img-top rounded-circle d-block mx-auto" src="/25fit_website_theme/static/src/images/nancyle.jpeg" loading="lazy" style="width: 50%; padding-top: 20px"/>
+                                    <div class="card-body">
+                                        <h3 style="text-align: center;">
+                                            <b>Nancy Lê</b>
+                                        </h3>
+                                        <font>
+                                            <p>
+                                                <span>Sau vài tuần tập thử EMS, điều Nancy thích nhất là chỉ tốn 25 phút tập luyện, khác với những lúc tập 1-2 tiếng ở trong phòng gym.</span>
+                                            </p>
+                                            <p>
+                                                <span>Tại 25 FIT, mọi thứ được chuẩn bị kỹ càng và tiện dụng, từ pre-workout drink, khăn, nước. Mỗi lần đi tập không cần mang gì, chỉ cần có thời gian rảnh là có thể ghé tập.</span>
+                                            </p>
+                                            <p>
+                                                <span>Trong 25 phút với máy EMS, các nhóm cơ đều được tác động, nên cơ thể sẽ cảm thấy khá mệt như một buổi full body workout. Sau khi tập, cơ thể vẫn đi vào trạng thái đốt mỡ. Sau vài buổi cảm thấy bụng mình gọn chắc, tay chân cũng vậy.</span>
+                                            </p>
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_three_columns o_colored_level pb0 pt40" style="position: relative;">
+                    <div class="o_we_shape o_web_editor_Wavy_08" style="background-image: url(&quot;/web_editor/shape/web_editor/Wavy/08.svg?c2=%2362DDD7&amp;flip=y&quot;); background-position: 50% 100%;"></div>
+                    <section class="s_text_block o_colored_level undefined pb24 pt8" data-snippet="s_text_block" data-name="Headings" style="">
+                        <div class="s_allow_columns o_container_small">
+                            <p style="text-align: center;">
+                                <font style="font-size: 36px;">
+                                    <b>25 FIT Sẽ Giúp Bạn Như Thế Nào?</b>
+                                </font>
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="row d-flex align-items-stretch">
+                                <div class="col-lg-4 s_col_no_bgcolor pt16 pb64">
+                                    <div class="card bg-white h-100 rounded shadow" style="border-radius: 16px !important;">
+                                        <img class="card-img-top" src="/25fit_website_theme/static/src/images/banduocgi-01.jpeg" alt="" loading="lazy"/>
+                                        <div class="card-body">
+                                            <h4 class="card-title" style="text-align: center;">
+                                                <span style="font-weight: 700;">Giảm Cân và Mỡ Thừa Nhanh Chóng</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 s_col_no_bgcolor pt16 pb64">
+                                    <div class="card bg-white h-100 rounded shadow" style="border-radius: 16px !important;">
+                                        <img class="card-img-top" src="/25fit_website_theme/static/src/images/banduocgi-02.jpeg" alt="" loading="lazy"/>
+                                        <div class="card-body">
+                                            <h4 class="card-title" style="text-align: center;">
+                                                <span style="font-weight: 700;">Có Được Vóc Dáng Tuyệt Vời</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 s_col_no_bgcolor pt16 pb64">
+                                    <div class="card bg-white h-100 shadow rounded" style="border-radius: 16px !important;">
+                                        <img class="card-img-top" src="/25fit_website_theme/static/src/images/banduocgi-03.jpeg" alt="" loading="lazy"/>
+                                        <div class="card-body">
+                                            <h4 class="card-title" style="text-align: center;">
+                                                <span style="font-weight: 700;">Tăng Cường Sức Khoẻ và Thể Lực</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="s_text_block o_colored_level o_cc o_cc1 pt32 pb16" data-snippet="s_text_block" data-name="Headings">
+                    <div class="s_allow_columns o_container_small">
+                        <p style="text-align: center;">
+                            <font style="font-size: 36px;">
+                                <b>Vì Sao Nên Chọn 25 FIT?</b>
+                            </font>
+                        </p>
+                    </div>
+                </section>
+                <section class="s_features_grid pb24 o_colored_level undefined o_half_screen_height pt8" data-snippet="s_features_grid" data-name="Features Grid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                                <div class="row">
+                                    <div class="o_colored_level pb0 o_cc o_cc4 col-lg-10 pt0">
+                                        <h2 style="text-align: center;">
+                                            <b>
+                                                <font style="font-size: 24px; text-align: center">Gym Truyền Thống</font>
+                                            </b>
+                                        </h2>
+                                    </div>
+                                    <div class="col-lg-12 o_colored_level pt24 pb24">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-times-circle-o text-o-color-1" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Luyện tập 60' cho 3-4 buổi/tuần</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 pb16 o_colored_level pt0">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-times-circle-o text-o-color-1" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Quá trình giảm mỡ lâu có kết quả</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 pt16 pb16 o_colored_level">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-times-circle-o text-o-color-1" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Luyện tập nặng, quá tải cho khớp</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 o_colored_level pb16 pt16">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-times-circle-o text-o-color-1" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Chỉ kích hoạt được 1-2 nhóm cơ</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 o_colored_level pb16 pt16">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-times-circle-o text-o-color-1" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Có rủi ro chấn thương</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 pt16 pb16 o_colored_level">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-times-circle-o text-o-color-1" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Không giảm đau</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 s_col_no_bgcolor pb24">
+                                <div class="row">
+                                    <div class="o_colored_level o_cc o_cc3 pb0 col-lg-11">
+                                        <h2 style="text-align: center;">
+                                            <b>
+                                                <font style="font-size: 24px; text-align: center" class="text-white">25 FIT</font>
+                                            </b>
+                                        </h2>
+                                    </div>
+                                    <div class="col-lg-12 o_colored_level pb0 pt24">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-check-square-o text-o-color-2" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Chỉ cần luyện tập 25', 1-2 buổi/tuần</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 o_colored_level pb0 pt24">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-check-square-o text-o-color-2" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Đạt kết quả giảm mỡ nhanh hơn</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 o_colored_level pb0 pt32">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-check-square-o text-o-color-2" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Các bài tập đơn giản</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 o_colored_level pb0 pt32">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-check-square-o text-o-color-2" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Kích hoạt được toàn bộ nhóm cơ</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 o_colored_level pb0 pt32">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-check-square-o text-o-color-2" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Không có rủi ro chấn thương</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 o_colored_level pb0 pt32">
+                                        <div class="s_features_grid_content">
+                                            <h4>
+                                                <span class="fa fa-check-square-o text-o-color-2" style="font-size: 18px;"></span>
+                                                <font style="font-size: 18px;">Giảm đau lưng, vai, cổ</font>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_cover parallax s_parallax_is_fixed bg-black-50 o_colored_level pt40 pb16" data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover">
+                    <span class="s_parallax_bg oe_img_bg" style="background-image: url(25fit_website_theme/static/src/images/background-parallax-section.jpeg); background-position: 50% 0px;"></span>
+                    <div class="o_we_bg_filter bg-black-50"></div>
+                    <div class="s_allow_columns container">
+                        <h1 style="text-align: center;">
+                            <span style="font-size: 48px;">
+                                <b>ĐĂNG KÝ NGAY ĐỂ NHẬN BUỔI TẬP MIỄN PHÍ CHO RIÊNG BẠN</b>
+                            </span>
+                        </h1>
+                        <p style="text-align: center;">
+                            <a href="https://dangky.25fit.net/dang-ky-tap-thu-25fit" class="btn btn-lg btn-primary mb-2">
+                                <b>TẬP THỬ</b>
+                            </a>
+                        </p>
+                    </div>
+                </section>
+                <section class="s_features o_colored_level" data-snippet="s_features" data-name="Features">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+                                <a href="https://www.google.com/maps/place/25+FIT+Tr%C6%B0%C6%A1ng+%C4%90%E1%BB%8Bnh/@10.7779537,106.6871878,17z/data=!3m1!4b1!4m5!3m4!1s0x31752fa1c88d4e43:0xac08da31f986292e!8m2!3d10.7779484!4d106.6893765" target="_blank">
+                                    <i class="fa fa-3x bg-primary m-3 rounded-circle fa-map-marker"></i>
+                                </a>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 24px;">GHÉ THĂM CHÚNG TÔI TẠI</font>
+                                    </b>
+                                </h3>
+                                <p>
+                                    <b>105C Đường Trương Định, Phường Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh</b>
+                                    <br/>
+                                </p>
+                            </div>
+                            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+                                <i class="bg-o-color-1 fa fa-3x fa-phone m-3 rounded-circle"></i>
+                                <h3>
+                                    <b>
+                                        <font style="font-size: 24px;">GỌI CHO CHÚNG TÔI</font>
+                                    </b>
+                                </h3>
+                                <p>
+                                    <span style="font-weight: 700;">1800 6176</span>
+                                </p>
+                            </div>
+                            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+                                <a href="mailto:welisten@25fit.net">
+                                    <i class="bg-o-color-1 fa fa-3x fa-envelope m-3 rounded-circle"></i>
+                                </a>
+                                <h3>
+                                    <font style="font-size: 24px;">
+                                        <b>GỬI MAIL CHO CHÚNG TÔI</b>
+                                    </font>
+                                </h3>
+                                <p>
+                                    <b>welisten@25fit.net</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Droppable-area shared across all 25fit pages -->
+                <t t-set="oe_structure_25fit_footer_description">Visible in all 25fit pages</t>
+                <div class="oe_structure oe_empty" id="oe_structure_25fit_footer" t-att-data-editor-sub-message="oe_structure_25fit_footer_description"/>
+            </div>
+        </t>
+    </template>
+</odoo>

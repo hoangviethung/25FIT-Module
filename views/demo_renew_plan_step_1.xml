@@ -120,6 +120,10 @@
                     </div>
                 </form>
             </section>
+
+            <!-- Droppable-area shared across all 25fit pages -->
+            <t t-set="oe_structure_25fit_footer_description">Visible in all 25fit pages</t>
+            <div class="oe_structure oe_empty" id="oe_structure_25fit_footer" t-att-data-editor-sub-message="oe_structure_25fit_footer_description"/>
         </t>
     </template>
 </odoo>
