@@ -23,6 +23,7 @@
         # Demo View
         'views/demo_homepage.xml',
         'views/demo_ems_training.xml',
+        'views/demo_franchise.xml',
         'views/demo_renew_plan_step_1.xml',
         'views/demo_renew_plan_step_2.xml',
         'views/demo_your_booking_information.xml',

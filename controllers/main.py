@@ -11,6 +11,10 @@ class Demo25FitThemeController(Home):
     def DemoEmsTraining(self, **opt):
         return request.render("25fit_website_theme.demo_ems_training")
 
+    @http.route(['/demo-franchise'], type='http', auth="public", website=True, sitemap=True)
+    def DemoFranchise(self, **opt):
+        return request.render("25fit_website_theme.demo_franchise")
+
     @http.route(['/demo-renew-plan-step-1'], type='http', auth="public", website=True, sitemap=True)
     def DemoReviewPlanStep1(self, **opt):
         return request.render("25fit_website_theme.demo_renew_plan_step_1")
