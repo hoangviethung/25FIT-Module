@@ -14,7 +14,13 @@
         <xpath expr="//link[last()]" position="after">
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/snippets/s_antiseptic_model.scss"/>
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/forms.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/typography.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/wizard.scss"/>
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/checkout.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/schedule_booking.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/booking_time.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/confirm_booking.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/booking_details.scss"/>
             <link rel="stylesheet" type="text/scss" href="/25fit_website_theme/static/src/scss/your_booking_information.scss"/>
         </xpath>
         <xpath expr="//script[last()]" position="after">

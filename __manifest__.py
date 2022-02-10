@@ -13,6 +13,7 @@
     'depends': [
         # Odoo
         'website',
+        'website_sale',
     ],
     'data': [
         # Assets
@@ -26,6 +27,10 @@
         'views/demo_franchise.xml',
         'views/demo_renew_plan_step_1.xml',
         'views/demo_renew_plan_step_2.xml',
+        'views/demo_schedule_booking.xml',
+        'views/demo_booking_time.xml',
+        'views/demo_confirm_booking.xml',
+        'views/demo_booking_details.xml',
         'views/demo_your_booking_information.xml',
     ],
     'qweb': [

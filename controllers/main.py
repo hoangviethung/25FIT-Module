@@ -15,6 +15,22 @@ class Demo25FitThemeController(Home):
     def DemoFranchise(self, **opt):
         return request.render("25fit_website_theme.demo_franchise")
 
+    @http.route(['/demo-schedule-booking'], type='http', auth="public", website=True, sitemap=True)
+    def DemoScheduleBooking(self, **opt):
+        return request.render("25fit_website_theme.demo_schedule_booking")
+
+    @http.route(['/demo-booking-time'], type='http', auth="public", website=True, sitemap=True)
+    def DemoBookingTime(self, **opt):
+        return request.render("25fit_website_theme.demo_booking_time")
+
+    @http.route(['/demo-confirm-booking'], type='http', auth="public", website=True, sitemap=True)
+    def DemoConfirmBooking(self, **opt):
+        return request.render("25fit_website_theme.demo_confirm_booking")
+
+    @http.route(['/demo-booking-details'], type='http', auth="public", website=True, sitemap=True)
+    def DemoBookingValidate(self, **opt):
+        return request.render("25fit_website_theme.demo_booking_details")
+
     @http.route(['/demo-renew-plan-step-1'], type='http', auth="public", website=True, sitemap=True)
     def DemoReviewPlanStep1(self, **opt):
         return request.render("25fit_website_theme.demo_renew_plan_step_1")

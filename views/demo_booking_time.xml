@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="demo_booking_time" name="Demo Booking Time">
+        <t t-call="website.layout">
+            <!-- SECTION BOOKING TIME -->
+            <section class="section-booking-time-25fit">
+                <div class="container">
+                    <ul class="wizard wizard-25fit m-0 float-right">
+                        <li>
+                            <a class="text-success" href="/demo-schedule-booking">Booking</a>
+                            <span class="chevron"></span>
+                        </li>
+                        <li class="text-primary">Time
+                            <span class="chevron"></span>
+                        </li>
+                        <li class="text-muted">Confirmation
+                            <span class="chevron"></span>
+                        </li>
+                    </ul>
+                    <div class="title-section-wrapper-25fit">
+                        <h1 class="title-section">Booking Time</h1>
+                    </div>
+                    <!-- Import Calendar Here !!! -->
+                    <div class="booking-time-calendar-wrapper">
+                        <a class="btn btn-primary" href="/demo-confirm-booking">Next Step</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Droppable-area shared across all 25fit pages -->
+            <t t-set="oe_structure_25fit_footer_description">Visible in all 25fit pages</t>
+            <div class="oe_structure oe_empty" id="oe_structure_25fit_footer" t-att-data-editor-sub-message="oe_structure_25fit_footer_description"/>
+        </t>
+    </template>
+</odoo>

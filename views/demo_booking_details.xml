@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="demo_your_booking_information" name="Demo Your Booking Information">
+    <template id="demo_booking_details" name="Demo Booking Details">
         <t t-call="website.layout">
-            <!-- SECTION CHECKOUT-->
-            <section class="section-your-booking-information-25fit">
+            <!-- SECTION BOOKING TIME -->
+            <section class="section-booking-validate-25fit">
                 <div class="container">
                     <div class="title-section-wrapper-25fit">
                         <h1 class="title-section">Booking: At Studio - Nguyễn Phước Hậu Studio Trương Định Quận 3-21-12-2021 14:30:00</h1>
                     </div>
-                    <div class="your-booking-information-wrapper">
-                        <div class="information-header">
-                            <div class="information-title">Your information</div>
+                    <div class="alert alert-info mt-3" role="status">
+                        <p class="m-0">
+                            <strong>Your booking has been successfully booked!</strong>
+                        </p>
+                    </div>
+                    <div class="schedule-booking-wrapper">
+                        <div class="schedule-booking-header">
+                            <div class="schedule-booking-title">Customer Inbody Information</div>
                         </div>
-                        <div class="information-body">
-                            <div class="informations">
-                                <div class="information__item information__item--time">
-                                    <div class="date">Thu Oct 21, 2021</div>
-                                    <div class="time">5:30:00 PM</div>
-                                    <div class="time-zone">(timezone: Asia/Ho_Chi_Minh)</div>
-                                </div>
-                                <div class="information__item information__item--info_booking">
+                        <div class="schedule-booking-body">
+                            <div class="list-your-booking">
+                                <div class="booking__item">
                                     <table>
                                         <tr>
                                             <td>Booking ID</td>
@@ -30,86 +30,56 @@
                                             <td>At Studio</td>
                                         </tr>
                                         <tr>
+                                            <td>Customer</td>
+                                            <td>Hoàng Việt Hùng</td>
+                                        </tr>
+                                        <tr>
+                                            <td>When</td>
+                                            <td>
+                                                <p class="m-0">Thu Feb 10, 2022, 11:00:00 AM</p>
+                                                <i class="text-muted">(timezone: Asia/Ho_Chi_Minh)</i>
+                                            </td>
+                                        </tr>
+                                        <tr>
                                             <td>Status</td>
                                             <td>Reserved</td>
                                         </tr>
                                         <tr>
                                             <td>Studio</td>
-                                            <td>Studio Lý Thường Kiệt, Hà Nội</td>
+                                            <td>Studio Trương Định</td>
                                         </tr>
                                         <tr>
                                             <td>Address</td>
-                                            <td>01 Lý Thường Kiệt, Phường Đồng Xuân, Quận Hoàn Kiếm, Thành phố Hà Nội</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="information__item information__item--info_user">
-                                    <table>
-                                        <tr>
-                                            <td>Customer</td>
-                                            <td>Tien Le</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Phone</td>
-                                            <td>090000000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Miha Size</td>
-                                            <td>M</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Vest Size</td>
-                                            <td>V1</td>
+                                            <td>105C Trương Định, Phường 06, Quận 3, Thành phố Hồ Chí Minh</td>
                                         </tr>
                                         <tr>
                                             <td>Note</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Internal Note</td>
-                                            <td>V1 - M2 - S</td>
+                                            <td>Tập với cường độ cao</td>
                                         </tr>
                                     </table>
+                                    <div class="booking-item-actions">
+                                        <a class="btn btn-primary m-0" role="button" href="#">
+                                            <i class="fa fa-fw fa-arrow-right"></i>
+                                            <span>Add to iCal/Outlook</span>
+                                        </a>
+                                        <a class="btn btn-primary m-0" role="button" href="#">
+                                            <i class="fa fa-fw fa-arrow-right"></i>
+                                            <span>Add to Google Calendar</span>
+                                        </a>
+
+                                    </div>
+                                    <div class="booking-item-actions">
+                                        <a class="btn btn-danger m-0" role="button" href="#">
+                                            <i class="fa fa-fw fa-times"></i>
+                                            <span>Cancel</span>
+                                        </a>
+                                        <a class="btn btn-success m-0" role="button" href="#">
+                                            <i class="fa fa-fw fa-arrow-right"></i>
+                                            <span>Checkin</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="your-booking-information-wrapper">
-                        <div class="information-header">
-                            <div class="information-title">Customer Goals</div>
-                        </div>
-                        <div class="information-body">
-                            <table class="table-information customer-goals">
-                                <tbody>
-                                    <tr>
-                                        <td>Particular Goals</td>
-                                        <td>
-                                            <span>Weight Loss;</span>
-                                            <span>Improve and reduce bones and joint injury;</span>
-                                            <span>Customer Note</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Zones Focus</td>
-                                        <td>
-                                            <span>Arms;</span>
-                                            <span>Upper Back</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Health Issues</td>
-                                        <td>
-                                            <span>Knees</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Motivation to exercise</td>
-                                        <td>
-                                            <span>Quality of life</span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
                         </div>
                     </div>
                     <div class="your-booking-information-wrapper">
@@ -197,7 +167,7 @@
                     </div>
                     <div class="your-booking-information-wrapper">
                         <div class="information-header">
-                            <div class="information-title">Block Lego Lessons</div>
+                            <div class="information-title">Customer Training lessons</div>
                             <a class="btn btn-sm btn-secondary" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#1 Front Bicep">
                                 <i class="fa fa-play"></i>
                                 <span>View all</span>

@@ -3,24 +3,6 @@
     height: 100%;
 }
 
-.booking-title-wrapper {
-    padding-bottom: 16px;
-    border-bottom: 1px solid
-        map-get($map: $o-theme-color-palettes-custom, $key: "neutral-grey-3");
-}
-
-.your-booking-title {
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 0;
-    @media (min-width: 768px) {
-        font-size: 1.125rem;
-    }
-    @media (min-width: 992px) {
-        font-size: 1.5rem;
-    }
-}
-
 .your-booking-information-wrapper {
     margin-top: 32px;
     .information-header {
