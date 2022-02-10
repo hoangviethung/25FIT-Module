@@ -3,7 +3,7 @@
     <template id="demo_booking_details" name="Demo Booking Details">
         <t t-call="website.layout">
             <!-- SECTION BOOKING TIME -->
-            <section class="section-booking-validate-25fit">
+            <section class="booking-details-25fit">
                 <div class="container">
                     <div class="title-section-wrapper-25fit">
                         <h1 class="title-section">Booking: At Studio - Nguyễn Phước Hậu Studio Trương Định Quận 3-21-12-2021 14:30:00</h1>

@@ -22,8 +22,8 @@
                     <div class="title-section-wrapper-25fit">
                         <h1 class="title-section">Confirm your details</h1>
                     </div>
-                    <div class="schedule-booking-wrapper-25fit">
-                        <form class="schedule-booking-form w-md-50" type="post" action="/demo-booking-details">
+                    <div class="confirm-booking-wrapper">
+                        <form class="confirm-booking-form w-md-50" type="post" action="/demo-booking-details">
                             <div class="form-group row">
                                 <label class="col-md-3 col-form-label">Your Name</label>
                                 <div class="col-md-9">
