@@ -9,7 +9,7 @@
                             <i class="fa fa-times"></i>
                         </button>
                         <div class="modal-header-25fit">
-                            <img src="/25fit_website_theme/static/src/images/banner-antiseptic-model-vi.png" alt="25FIT-KHU-KHUAN"/>
+                            <img src="/theme_25fit/static/src/images/banner-antiseptic-model-vi.png" alt="25FIT-KHU-KHUAN"/>
                         </div>
                         <div class="modal-body-25fit">
                             <div class="block-content">
@@ -19,25 +19,25 @@
                                 <div class="list-time">
                                     <div class="time__item">
                                         <div class="icon">
-                                            <img src="/25fit_website_theme/static/src/images/time-antiseptic-01.png" alt="25FIT-KHU-KHUAN"/>
+                                            <img src="/theme_25fit/static/src/images/time-antiseptic-01.png" alt="25FIT-KHU-KHUAN"/>
                                         </div>
                                         <div class="time">05:30</div>
                                     </div>
                                     <div class="time__item">
                                         <div class="icon">
-                                            <img src="/25fit_website_theme/static/src/images/time-antiseptic-02.png" alt="25FIT-KHU-KHUAN"/>
+                                            <img src="/theme_25fit/static/src/images/time-antiseptic-02.png" alt="25FIT-KHU-KHUAN"/>
                                         </div>
                                         <div class="time">10:00</div>
                                     </div>
                                     <div class="time__item">
                                         <div class="icon">
-                                            <img src="/25fit_website_theme/static/src/images/time-antiseptic-03.png" alt="25FIT-KHU-KHUAN"/>
+                                            <img src="/theme_25fit/static/src/images/time-antiseptic-03.png" alt="25FIT-KHU-KHUAN"/>
                                         </div>
                                         <div class="time">13:00</div>
                                     </div>
                                     <div class="time__item">
                                         <div class="icon">
-                                            <img src="/25fit_website_theme/static/src/images/time-antiseptic-04.png" alt="25FIT-KHU-KHUAN"/>
+                                            <img src="/theme_25fit/static/src/images/time-antiseptic-04.png" alt="25FIT-KHU-KHUAN"/>
                                         </div>
                                         <div class="time">16:00</div>
                                     </div>

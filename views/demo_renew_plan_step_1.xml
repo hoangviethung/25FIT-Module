@@ -55,7 +55,7 @@
                                             <label class="plans__item js-check-plan checked">
                                                 <input type="radio" name="typePlan" hidden="hidden" value="gold" checked="checked" />
                                                 <div class="icon">
-                                                    <img src="/25fit_website_theme/static/src/images/plan-gold.png"/>
+                                                    <img src="/theme_25fit/static/src/images/plan-gold.png"/>
                                                 </div>
                                                 <div class="information">
                                                     <div class="name">Gold - 12 Months</div>
@@ -65,7 +65,7 @@
                                             <label class="plans__item js-check-plan">
                                                 <input type="radio" name="typePlan" hidden="hidden" value="platium" />
                                                 <div class="icon">
-                                                    <img src="/25fit_website_theme/static/src/images/plan-platium.png"/>
+                                                    <img src="/theme_25fit/static/src/images/plan-platium.png"/>
                                                 </div>
                                                 <div class="information">
                                                     <div class="name">Platium - 06 Months</div>
@@ -75,7 +75,7 @@
                                             <label class="plans__item js-check-plan">
                                                 <input type="radio" name="typePlan" hidden="hidden" value="diamond" />
                                                 <div class="icon">
-                                                    <img src="/25fit_website_theme/static/src/images/plan-dimond.png"/>
+                                                    <img src="/theme_25fit/static/src/images/plan-dimond.png"/>
                                                 </div>
                                                 <div class="information">
                                                     <div class="name">Diamond - 24 Months</div>

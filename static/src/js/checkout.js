@@ -1,4 +1,4 @@
-odoo.define("25fit_website_theme.checkout", function (require) {
+odoo.define("theme_25fit.checkout", function (require) {
     ("use strict");
     const publicWidget = require("web.public.widget");
     publicWidget.registry.Website25FitCheckout = publicWidget.Widget.extend({

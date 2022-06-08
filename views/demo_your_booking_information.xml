@@ -198,7 +198,7 @@
                     <div class="your-booking-information-wrapper">
                         <div class="information-header">
                             <div class="information-title">Block Lego Lessons</div>
-                            <a class="btn btn-sm btn-secondary" data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#1 Front Bicep">
+                            <a class="btn btn-sm btn-secondary" data-fancybox="tranning_lession_images" href="/theme_25fit/static/src/images/tranning-lession-1.png" data-caption="#1 Front Bicep">
                                 <i class="fa fa-play"></i>
                                 <span>View all</span>
                             </a>
@@ -206,7 +206,7 @@
                         <div class="information-body">
                             <table class="table-information block-lego-lessons">
                                 <tbody>
-                                    <tr data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#1 Front Bicep">
+                                    <tr data-fancybox="tranning_lession_images" href="/theme_25fit/static/src/images/tranning-lession-1.png" data-caption="#1 Front Bicep">
                                         <td>
                                             <div class="group-text">
                                                 <div class="number">1</div>
@@ -214,10 +214,10 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
+                                            <img src="/theme_25fit/static/src/images/tranning-lession-0.png" />
                                         </td>
                                     </tr>
-                                    <tr data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#2 Front Bicep">
+                                    <tr data-fancybox="tranning_lession_images" href="/theme_25fit/static/src/images/tranning-lession-1.png" data-caption="#2 Front Bicep">
                                         <td>
                                             <div class="group-text">
                                                 <div class="number">2</div>
@@ -225,10 +225,10 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
+                                            <img src="/theme_25fit/static/src/images/tranning-lession-0.png" />
                                         </td>
                                     </tr>
-                                    <tr data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#3 Front Bicep">
+                                    <tr data-fancybox="tranning_lession_images" href="/theme_25fit/static/src/images/tranning-lession-1.png" data-caption="#3 Front Bicep">
                                         <td>
                                             <div class="group-text">
                                                 <div class="number">3</div>
@@ -236,10 +236,10 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
+                                            <img src="/theme_25fit/static/src/images/tranning-lession-0.png" />
                                         </td>
                                     </tr>
-                                    <tr data-fancybox="tranning_lession_images" href="/25fit_website_theme/static/src/images/tranning-lession-1.png" data-caption="#4 Front Bicep">
+                                    <tr data-fancybox="tranning_lession_images" href="/theme_25fit/static/src/images/tranning-lession-1.png" data-caption="#4 Front Bicep">
                                         <td>
                                             <div class="group-text">
                                                 <div class="number">4</div>
@@ -247,7 +247,7 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <img src="/25fit_website_theme/static/src/images/tranning-lession-0.png" />
+                                            <img src="/theme_25fit/static/src/images/tranning-lession-0.png" />
                                         </td>
                                     </tr>
                                 </tbody>

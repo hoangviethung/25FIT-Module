@@ -1,7 +1,7 @@
 .title-section-wrapper-25fit {
     padding-bottom: 16px;
     border-bottom: 1px solid
-        map-get($map: $o-theme-color-palettes-custom, $key: "neutral-grey-3");
+        map-get($map: $theme-colors, $key: "neutral-grey-3");
     .title-section {
         font-size: 1rem;
         font-weight: 500;

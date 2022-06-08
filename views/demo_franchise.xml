@@ -34,7 +34,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
-                                <img class="img-fluid o_we_custom_image" src="/25fit_website_theme/static/src/images/save-money.png" style="width: 25%;" loading="lazy"/>
+                                <img class="img-fluid o_we_custom_image" src="/theme_25fit/static/src/images/save-money.png" style="width: 25%;" loading="lazy"/>
                                 <h3 class="mt-3">
                                     <font class="bg-o-color-4 text-o-color-1">
                                         <b>Đầu tư thấp</b>
@@ -42,7 +42,7 @@
                                 </h3>
                             </div>
                             <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
-                                <img class="img-fluid o_we_custom_image" src="/25fit_website_theme/static/src/images/return-on-investment.png" alt="" style="width: 25%;" loading="lazy"/>
+                                <img class="img-fluid o_we_custom_image" src="/theme_25fit/static/src/images/return-on-investment.png" alt="" style="width: 25%;" loading="lazy"/>
                                 <h3 class="mt-3">
                                     <font class="bg-o-color-4 text-o-color-1">
                                         <b>Hoàn vốn nhanh</b>
@@ -50,7 +50,7 @@
                                 </h3>
                             </div>
                             <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
-                                <img class="img-fluid o_we_custom_image" src="/25fit_website_theme/static/src/images/profits.png" alt="" style="width: 25%;" loading="lazy"/>
+                                <img class="img-fluid o_we_custom_image" src="/theme_25fit/static/src/images/profits.png" alt="" style="width: 25%;" loading="lazy"/>
                                 <h3 class="mt-3">
                                     <font class="text-o-color-1">
                                         <b>Lợi nhuận cao</b>
@@ -79,7 +79,7 @@
                                         <div class="s_blockquote_content o_cc1">
                                             <p style="font-size: 1rem">Nền tảng công nghệ tiên tiến, phương pháp tập luyện hiệu quả, cơ cấu nhân sự tinh gọn, yêu cầu không gian phòng tập nhỏ (60m2) là những yếu tố mang đến sự thành công cho mô hình và đối tác đầu tư nhượng quyền của 25 FIT.</p>
                                             <footer class="blockquote-footer">
-                                                <img src="25fit_website_theme/static/src/images/longpham-ceo.jpeg" class="s_blockquote_avatar img rounded-circle mr-2" alt=""/>
+                                                <img src="theme_25fit/static/src/images/longpham-ceo.jpeg" class="s_blockquote_avatar img rounded-circle mr-2" alt=""/>
                                                 <span class="s_blockquote_author">
                                                     <b>Mr. Long Phạm</b> • CEO &amp; Co Founder 25 FIT
                                                 </span>
@@ -97,7 +97,7 @@
                                         <div class="s_blockquote_content o_cc1">
                                             <p style="font-size: 1rem">Chúng tôi xem mình là doanh nghiệp gym công nghệ, tập trung vào trải nghiệm khách hàng hơn là sản phẩm. Để vận hành mô hình kinh doanh này chạy mượt mà, không chỉ cần vài cái máy, mà cần sự hỗ trợ của vận hành, marketing, nền tảng công nghệ.</p>
                                             <footer class="blockquote-footer">
-                                                <img src="25fit_website_theme/static/src/images/hunghoang-cofounder.jpeg" class="s_blockquote_avatar img rounded-circle mr-2" alt=""/>
+                                                <img src="theme_25fit/static/src/images/hunghoang-cofounder.jpeg" class="s_blockquote_avatar img rounded-circle mr-2" alt=""/>
                                                 <span class="s_blockquote_author">
                                                     <b>Mr. Hưng Hoàng</b> • Co Founder 25 FIT
                                                 </span>
@@ -115,7 +115,7 @@
                                         <div class="s_blockquote_content o_cc1">
                                             <p style="font-size: 1rem">Với một dự án kinh doanh được xây dựng bài bản, đội ngũ tư vấn giàu kinh nghiệm và hệ thống quản lý được số hoá như 25 FIT, thì 2 tỷ là một chi phí cực kì thấp, điểm hoà vốn nhanh và chắc chắn là mang lại lợi nhuận cao.</p>
                                             <footer class="blockquote-footer">
-                                                <img src="25fit_website_theme/static/src/images/phivan-cofounder.jpeg" class="s_blockquote_avatar img rounded-circle mr-2" alt=""/>
+                                                <img src="theme_25fit/static/src/images/phivan-cofounder.jpeg" class="s_blockquote_avatar img rounded-circle mr-2" alt=""/>
                                                 <span class="s_blockquote_author">
                                                     <b>Ms. Nguyễn Phi Vân</b> • Co Founder 25 FIT
                                                 </span>
@@ -140,7 +140,7 @@
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-lg-6 pt16 pb16 o_colored_level">
-                                <img src="25fit_website_theme/static/src/images/about-25fit.jpeg" class="img img-fluid mx-auto p-3" alt="" loading="lazy" />
+                                <img src="theme_25fit/static/src/images/about-25fit.jpeg" class="img img-fluid mx-auto p-3" alt="" loading="lazy" />
                             </div>
                             <div class="col-lg-6 pt16 pb16 o_colored_level">
                                 <h1>
@@ -362,7 +362,7 @@
                 <section class="s_masonry_block o_colored_level" data-vcss="001" data-snippet="s_masonry_block" data-name="Masonry" style="">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6 text-center pb224 pt224 o_colored_level oe_img_bg" data-name="Block" style="background-position: 0% 74.9153%; background-image: url(25fit_website_theme/static/src/images/mo-hinh-25fit.jpeg);">
+                            <div class="col-lg-6 text-center pb224 pt224 o_colored_level oe_img_bg" data-name="Block" style="background-position: 0% 74.9153%; background-image: url(theme_25fit/static/src/images/mo-hinh-25fit.jpeg);">
                             </div>
                             <div class="col-lg-6 o_colored_level">
                                 <div class="row h-100">
@@ -540,32 +540,32 @@
                         <div class="row">
                             <div class="col-lg-2 pt16 pb16 o_colored_level">
                                 <a style="display:flex; align-items:center; justify-content:center; height: 100%" href="https://youtu.be/d-8n5YBhf3M" target="_blank">
-                                    <img src="/25fit_website_theme/static/src/images/fbnc.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+                                    <img src="/theme_25fit/static/src/images/fbnc.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
                                 </a>
                             </div>
                             <div class="col-lg-2 pt16 pb16 o_colored_level">
                                 <a style="display:flex; align-items:center; justify-content:center; height: 100%" href="https://theleader.vn/ceo-25-fit-gym-cong-nghe-but-pha-voi-mo-hinh-nhuong-quyen-m1611644108834.htm" target="_blank">
-                                    <img src="/25fit_website_theme/static/src/images/theleader.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+                                    <img src="/theme_25fit/static/src/images/theleader.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
                                 </a>
                             </div>
                             <div class="col-lg-2 pt16 pb16 o_colored_level">
                                 <a style="display:flex; align-items:center; justify-content:center; height: 100%" href="https://cafebiz.vn/ra-doi-trung-covid-mot-startup-chuoi-gym-cong-nghe-mo-lien-tu-ti-14-phong-tap-moi-goi-dau-tu-2-ty-dong-phong-tap-hua-sau-3-nam-lai-14-ty-dong-2020112323392258.chn" target="_blank">
-                                    <img src="/25fit_website_theme/static/src/images/cafebiz.jpeg" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+                                    <img src="/theme_25fit/static/src/images/cafebiz.jpeg" class="img img-fluid mx-auto" alt="" loading="lazy"/>
                                 </a>
                             </div>
                             <div class="col-lg-2 pt16 pb16 o_colored_level">
                                 <a style="display:flex; align-items:center; justify-content:center; height: 100%" href="https://thesaigontimes.vn/chuoi-phong-tap-25-fit-dat-muc-tieu-dat-200-trung-tam-qua-nhuong-quyen/" target="_blank">
-                                    <img src="/25fit_website_theme/static/src/images/kinhtesaigon.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+                                    <img src="/theme_25fit/static/src/images/kinhtesaigon.png" class="img img-fluid mx-auto" alt="" loading="lazy"/>
                                 </a>
                             </div>
                             <div class="col-lg-2 pt16 pb16 o_colored_level">
                                 <a style="display:flex; align-items:center; justify-content:center; height: 100%" href="https://cafef.vn/25-fit-mo-hinh-kinh-doanh-hiem-hoi-tang-truong-trong-dai-dich-2021070716551892.chn" target="_blank">
-                                    <img src="/25fit_website_theme/static/src/images/cafebiz.jpeg" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+                                    <img src="/theme_25fit/static/src/images/cafebiz.jpeg" class="img img-fluid mx-auto" alt="" loading="lazy"/>
                                 </a>
                             </div>
                             <div class="col-lg-2 pt16 pb16 o_colored_level">
                                 <a style="display:flex; align-items:center; justify-content:center; height: 100%" href="https://vnexpress.net/25-fit-ap-dung-mo-hinh-tap-gym-bang-cong-nghe-4026226.html" target="_blank">
-                                    <img src="/25fit_website_theme/static/src/images/vnexpress.jpeg" class="img img-fluid mx-auto" alt="" loading="lazy"/>
+                                    <img src="/theme_25fit/static/src/images/vnexpress.jpeg" class="img img-fluid mx-auto" alt="" loading="lazy"/>
                                 </a>
                             </div>
                         </div>
@@ -584,21 +584,21 @@
                     <div class="container">
                         <div class="row s_nb_column_fixed">
                             <div class="o_masonry_col o_snippet_not_selectable col-lg-4">
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-00.jpeg" data-index="0" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-03.jpeg" data-index="3" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-07.jpeg" data-index="7" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-10.jpeg" data-index="10" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-00.jpeg" data-index="0" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-03.jpeg" data-index="3" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-07.jpeg" data-index="7" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-10.jpeg" data-index="10" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
                             </div>
                             <div class="o_masonry_col o_snippet_not_selectable col-lg-4">
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-01.jpeg" data-index="1" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-05.jpeg" data-index="5" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-08.jpeg" data-index="8" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-01.jpeg" data-index="1" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-05.jpeg" data-index="5" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-08.jpeg" data-index="8" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
                             </div>
                             <div class="o_masonry_col o_snippet_not_selectable col-lg-4">
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-02.jpeg" data-index="2" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-04.jpeg" data-index="4" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-06.jpeg" data-index="6" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
-                                <img class="img img-fluid d-block shadow" src="/25fit_website_theme/static/src/images/nhuong-quyen-09.jpeg" data-index="9" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-02.jpeg" data-index="2" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-04.jpeg" data-index="4" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-06.jpeg" data-index="6" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
+                                <img class="img img-fluid d-block shadow" src="/theme_25fit/static/src/images/nhuong-quyen-09.jpeg" data-index="9" alt="" data-name="Hình ảnh" style="" loading="lazy"/>
                             </div>
                         </div>
                     </div>

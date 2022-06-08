@@ -1,4 +1,4 @@
-$o-theme-color-palettes-custom: (
+$theme-colors: (
     "primary": #ff3d86,
     "secondary": #62ddd7,
     "secondary-2": #1a516e,
@@ -17,3 +17,35 @@ $o-theme-color-palettes-custom: (
     "tertiary-blue": #050e54,
     "tertiary-hover": #b32b5e,
 );
+
+$o-user-color-palette: (
+    "o-color-1":
+        map-get(
+            $map: $theme-colos,
+            $key: "primary",
+        ),
+    "o-color-2":
+        map-get(
+            $map: $theme-colos,
+            $key: "secondary",
+        ),
+    "o-color-3": #eceae4,
+    "o-color-4": #ffffff,
+    "o-color-5": #16121f,
+) !default;
+
+$o-user-theme-color-palette: (
+    "o-color-1":
+        map-get(
+            $map: $theme-colos,
+            $key: "primary",
+        ),
+    "o-color-2":
+        map-get(
+            $map: $theme-colos,
+            $key: "secondary",
+        ),
+    "o-color-3": #eceae4,
+    "o-color-4": #ffffff,
+    "o-color-5": #16121f,
+) !default;

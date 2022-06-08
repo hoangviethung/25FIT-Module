@@ -1,0 +1,14 @@
+.fullpageSwiper {
+    width: 100%;
+    height: 100vh;
+    background-color: #222222;
+    .content-wrapper {
+        display: grid;
+        align-items: center;
+        height: 100%;
+        grid-template-columns: 0.7fr 1.3fr;
+    }
+    .content {
+        color: #ffffff;
+    }
+}

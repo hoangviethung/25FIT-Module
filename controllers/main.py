@@ -5,40 +5,40 @@ from odoo.http import request
 class Demo25FitThemeController(Home):
     @http.route(['/demo-homepage'], type='http', auth="public", website=True, sitemap=True)
     def DemoHomePage(self, **opt):
-        return request.render("25fit_website_theme.demo_homepage")
+        return request.render("theme_25fit.demo_homepage")
 
     @http.route(['/demo-ems-training'], type='http', auth="public", website=True, sitemap=True)
     def DemoEmsTraining(self, **opt):
-        return request.render("25fit_website_theme.demo_ems_training")
+        return request.render("theme_25fit.demo_ems_training")
 
     @http.route(['/demo-franchise'], type='http', auth="public", website=True, sitemap=True)
     def DemoFranchise(self, **opt):
-        return request.render("25fit_website_theme.demo_franchise")
+        return request.render("theme_25fit.demo_franchise")
 
     @http.route(['/demo-schedule-booking'], type='http', auth="public", website=True, sitemap=True)
     def DemoScheduleBooking(self, **opt):
-        return request.render("25fit_website_theme.demo_schedule_booking")
+        return request.render("theme_25fit.demo_schedule_booking")
 
     @http.route(['/demo-booking-time'], type='http', auth="public", website=True, sitemap=True)
     def DemoBookingTime(self, **opt):
-        return request.render("25fit_website_theme.demo_booking_time")
+        return request.render("theme_25fit.demo_booking_time")
 
     @http.route(['/demo-confirm-booking'], type='http', auth="public", website=True, sitemap=True)
     def DemoConfirmBooking(self, **opt):
-        return request.render("25fit_website_theme.demo_confirm_booking")
+        return request.render("theme_25fit.demo_confirm_booking")
 
     @http.route(['/demo-booking-details'], type='http', auth="public", website=True, sitemap=True)
     def DemoBookingValidate(self, **opt):
-        return request.render("25fit_website_theme.demo_booking_details")
+        return request.render("theme_25fit.demo_booking_details")
 
     @http.route(['/demo-renew-plan-step-1'], type='http', auth="public", website=True, sitemap=True)
     def DemoReviewPlanStep1(self, **opt):
-        return request.render("25fit_website_theme.demo_renew_plan_step_1")
+        return request.render("theme_25fit.demo_renew_plan_step_1")
 
     @http.route(['/demo-renew-plan-step-2'], type='http', auth="public", website=True, sitemap=True)
     def DemoReviewPlanStep2(self, **opt):
-        return request.render("25fit_website_theme.demo_renew_plan_step_2")
+        return request.render("theme_25fit.demo_renew_plan_step_2")
 
     @http.route(['/demo-your-booking-information'], type='http', auth="public", website=True, sitemap=True)
     def DemoYourBookingInformation(self, **opt):
-        return request.render("25fit_website_theme.demo_your_booking_information")
+        return request.render("theme_25fit.demo_your_booking_information")

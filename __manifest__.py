@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 {
-    'name': '25FIT Website Theme',
-    'summary': 'This is module 25FIT Website Theme',
-    'version': '14.0.0.1.0',
-    'license': 'LGPL-3',
-    'category': 'Theme/25FIT Website Theme',
+    'name': 'Theme 25FIT',
+    'summary': 'Theme 25FIT Version 2.0',
+    'version': '2.0',
     'author': '25FIT',
+    'category': 'Theme/Theme 25FIT',
     'maintainer': '25FIT',
     'company': '25FIT',
     'support': 'welisten@25fit.net',
@@ -13,11 +12,8 @@
     'depends': [
         # Odoo
         'website',
-        'website_sale',
     ],
     'data': [
-        # Assets
-        'views/assets.xml',
         # Snippets
         'views/snippets/s_antiseptic_model.xml',
         'views/snippets/snippets.xml',
@@ -35,6 +31,43 @@
     ],
     'qweb': [
         'static/xml/*.xml',
+    ],
+    'assets':{
+        'web.assets_frontend': [
+            # Library SCSS
+            "/theme_25fit/static/src/libs/swiper/swiper-bundle.css",
+            "/theme_25fit/static/src/libs/fancybox/jquery.fancybox.scss",
+            # Library JS
+            "/theme_25fit/static/src/libs/fancybox/jquery.fancybox.min.js",
+            "/theme_25fit/static/src/libs/swiper/swiper-bundle.js",
+            # Snippets SCSS
+            "/theme_25fit/static/src/scss/snippets/s_antiseptic_model.scss",
+            # Website UI Kit
+            "/theme_25fit/static/src/scss/forms.scss",
+            "/theme_25fit/static/src/scss/typography.scss",
+            "/theme_25fit/static/src/scss/checkout.scss",
+            "/theme_25fit/static/src/scss/schedule_booking.scss",
+            "/theme_25fit/static/src/scss/booking_time.scss",
+            "/theme_25fit/static/src/scss/confirm_booking.scss",
+            "/theme_25fit/static/src/scss/booking_details.scss",
+            "/theme_25fit/static/src/scss/your_booking_information.scss",
+            "/theme_25fit/static/src/scss/website.ui.scss",
+            # Theme JS
+            "/theme_25fit/static/src/js/checkout.js",
+            "/theme_25fit/static/src/js/swiper-fullpage-content.js",
+        ],
+        'web._assets_primary_variables': [
+            "/theme_25fit/static/src/scss/primary_variables.scss",
+        ],
+        'web._assets_frontend_helpers': [
+            ('prepend', '/theme_25fit/static/src/scss/bootstrap_overridden.scss'),
+        ],
+        'website.assets_wysiwyg': [
+            ('include', 'web._assets_helpers'),
+        ],
+    },
+    'images': [
+        'static/description/screenshot.png',
     ],
     'installable': True,
     'application': True,
