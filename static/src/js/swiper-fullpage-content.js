@@ -1,25 +1,32 @@
-odoo.define("theme_25fit.swiper-fullpage-content", function (require) {
+odoo.define("theme_25fit.fullpage_content_section", function (require) {
     ("use strict");
     const publicWidget = require("web.public.widget");
-    publicWidget.registry.Website25FitCheckout = publicWidget.Widget.extend({
-        selector: ".swiper-fullpage-content",
+    publicWidget.registry.fullpageContentSection = publicWidget.Widget.extend({
+        selector: ".fullpage-content-section",
         xmlDependencies: [],
         events: {},
         start: function () {
-            this._initSwiper();
+            this._initFullContentSwiper();
             return this._super.apply(this, arguments);
         },
-        _initSwiper: function (ev) {
-            const swiper = new Swiper(".fullpageSwiper", {
+        _initFullContentSwiper: function (ev) {
+            const swiper = new Swiper(".fullpage-content-swiper", {
                 slidesPerView: 1,
-                direction: "vertical",
-                slidesPerView: 1,
-                spaceBetween: 30,
-                mousewheel: true,
-                simulateTouch: false,
                 pagination: {
-                    el: ".fullpageSwiper .swiper-pagination-dots",
+                    el: ".fullpage-content-swiper .swiper-pagination-dots",
                     clickable: true,
+                },
+                direction: "horizontal",
+                // mousewheel: {
+                //     invert: false,
+                //     releaseOnEdges: true,
+                //     forceToAxis: true,
+                //     thresholdDelta: 100,
+                // },
+                parallax: true,
+                speed: 1000,
+                breakpoints: {
+                    1025: { direction: "vertical" },
                 },
             });
         },

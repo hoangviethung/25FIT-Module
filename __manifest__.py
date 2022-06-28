@@ -46,7 +46,9 @@
             "/theme_25fit/static/src/scss/website.ui.scss",
             # Theme JS
             "/theme_25fit/static/src/js/checkout.js",
+            "/theme_25fit/static/src/js/home.js",
             "/theme_25fit/static/src/js/swiper-fullpage-content.js",
+            "/theme_25fit/static/src/js/swiper-testimonial.js",
         ],
         'web._assets_primary_variables': [
             "/theme_25fit/static/src/scss/primary_variables.scss",
