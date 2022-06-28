@@ -16,8 +16,9 @@ odoo.define("theme_25fit.swiper-fullpage-content", function (require) {
                 slidesPerView: 1,
                 spaceBetween: 30,
                 mousewheel: true,
+                simulateTouch: false,
                 pagination: {
-                    el: ".fullpageSwiper .swiper-pagination",
+                    el: ".fullpageSwiper .swiper-pagination-dots",
                     clickable: true,
                 },
             });

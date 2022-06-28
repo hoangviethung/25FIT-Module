@@ -43,14 +43,6 @@
             # Snippets SCSS
             "/theme_25fit/static/src/scss/snippets/s_antiseptic_model.scss",
             # Website UI Kit
-            "/theme_25fit/static/src/scss/forms.scss",
-            "/theme_25fit/static/src/scss/typography.scss",
-            "/theme_25fit/static/src/scss/checkout.scss",
-            "/theme_25fit/static/src/scss/schedule_booking.scss",
-            "/theme_25fit/static/src/scss/booking_time.scss",
-            "/theme_25fit/static/src/scss/confirm_booking.scss",
-            "/theme_25fit/static/src/scss/booking_details.scss",
-            "/theme_25fit/static/src/scss/your_booking_information.scss",
             "/theme_25fit/static/src/scss/website.ui.scss",
             # Theme JS
             "/theme_25fit/static/src/js/checkout.js",

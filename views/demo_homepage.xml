@@ -8,7 +8,7 @@
                     <div class="swiper fullpageSwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="container">
+                                <div class="container h-100">
                                     <div class="content-wrapper">
                                         <div class="image">
                                             <img src="/theme_25fit/static/src/images/model-fullpage-01.png" />
@@ -20,14 +20,117 @@
                                                 </div>
                                                 <h3>Nhanh</h3>
                                             </div>
+                                            <div class="content__desc">
+                                                <h4>Change of body, attitude and consciousness</h4>
+                                                <ul>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="content__action">
+                                                <a href="#" class="btn btn-primary btn-round">More Information</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">Slide 8</div>
-                            <div class="swiper-slide">Slide 9</div>
+                            <div class="swiper-slide">
+                                <div class="container h-100">
+                                    <div class="content-wrapper">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/model-fullpage-01.png" />
+                                        </div>
+                                        <div class="content">
+                                            <div class="content__heading">
+                                                <div class="icon">
+                                                    <i class="fa fa-bolt"></i>
+                                                </div>
+                                                <h3>Nhanh</h3>
+                                            </div>
+                                            <div class="content__desc">
+                                                <h4>Change of body, attitude and consciousness</h4>
+                                                <ul>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="content__action">
+                                                <a href="#" class="btn btn-primary btn-round">More Information</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container h-100">
+                                    <div class="content-wrapper">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/model-fullpage-01.png" />
+                                        </div>
+                                        <div class="content">
+                                            <div class="content__heading">
+                                                <div class="icon">
+                                                    <i class="fa fa-bolt"></i>
+                                                </div>
+                                                <h3>Nhanh</h3>
+                                            </div>
+                                            <div class="content__desc">
+                                                <h4>Change of body, attitude and consciousness</h4>
+                                                <ul>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="content__action">
+                                                <a href="#" class="btn btn-primary btn-round">More Information</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination swiper-pagination-dots"></div>
+                    </div>
+                </section>
+                <section class="swiper-testimonials">
+                    <div class="container">
+                        <div class="title-section-default">
+                            <div class="sub-heading">TESTIMONIALS</div>
+                            <h3 class="heading">About EMS Training</h3>
+                        </div>
+                        <div class="swiper testimonialsSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="container h-100">
+                                        <div class="content-wrapper">
+                                            <div class="image">
+                                                <img src="/theme_25fit/static/src/images/truongthanhtruc.png" />
+                                            </div>
+                                            <div class="content">
+                                                <div class="content__desc">“Công nghệ EMS tại 25 FIT không chỉ giúp mình tiết kiệm thời gian tập luyện mà còn hỗ trợ đắc lực trong việc tăng cơ, giảm mỡ, duy trì vóc dáng săn chắc. Thích nhất là dịch vụ tiện lợi và chu đáo khi đi tập mình không cần phải chuẩn bị đồ tập gì cả.“</div>
+                                                <div class="content__name">Phương Khánh</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination swiper-pagination-dots"></div>
+                        </div>
                     </div>
                 </section>
                 <!-- Droppable-area shared across all 25fit pages -->
