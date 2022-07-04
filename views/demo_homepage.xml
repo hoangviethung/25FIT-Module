@@ -5,7 +5,7 @@
             <div id="wrap">
                 <t t-raw="0"/>
                 <div id="layout-home-js">
-                    <section class="hero-banner-style-01">
+                    <section class="hero-banner-style-01" style="background-image: url('/theme_25fit/static/src/images/bg-hero-banner-01.png')">
                         <div class="container h-100">
                             <div class="content-wrapper">
                                 <h2>
@@ -19,33 +19,69 @@
                         </div>
                     </section>
                     <section class="fullpage-content-section">
-                        <div class="swiper fullpage-content-swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="container">
+                        <div class="container">
+                            <div class="swiper fullpage-content-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
                                         <div class="content-wrapper">
                                             <div class="image">
                                                 <img src="/theme_25fit/static/src/images/model-fullpage-01.png" />
                                             </div>
                                             <div class="content">
-                                                <div class="content__heading">
-                                                    <div class="icon">
-                                                        <i class="fa fa-bolt"></i>
-                                                    </div>
-                                                    <h3>Nhanh</h3>
-                                                </div>
+                                                <h3 class="content__heading">RAIN 1-ON-1 WITH THE BIGGEST NAMES IN FITNESS</h3>
                                                 <div class="content__desc">
                                                     <h4>Change of body, attitude and consciousness</h4>
                                                     <ul>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                        <li>Motivation through documented success</li>
+                                                        <li>Continuous adaptation</li>
+                                                        <li>Matching subjective perception and objective measurements (autosensitive training)</li>
+                                                        <li>Improved understanding of physiological processes</li>
                                                     </ul>
                                                 </div>
-
+                                                <div class="content__action">
+                                                    <a href="#" class="btn btn-primary btn-round">More Information</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-wrapper">
+                                            <div class="image">
+                                                <img src="/theme_25fit/static/src/images/model-fullpage-01.png" />
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="content__heading">RAIN 1-ON-1 WITH THE BIGGEST NAMES IN FITNESS</h3>
+                                                <div class="content__desc">
+                                                    <h4>Change of body, attitude and consciousness</h4>
+                                                    <ul>
+                                                        <li>Motivation through documented success</li>
+                                                        <li>Continuous adaptation</li>
+                                                        <li>Matching subjective perception and objective measurements (autosensitive training)</li>
+                                                        <li>Improved understanding of physiological processes</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="content__action">
+                                                    <a href="#" class="btn btn-primary btn-round">More Information</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-wrapper">
+                                            <div class="image">
+                                                <img src="/theme_25fit/static/src/images/model-fullpage-01.png" />
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="content__heading">RAIN 1-ON-1 WITH THE BIGGEST NAMES IN FITNESS</h3>
+                                                <div class="content__desc">
+                                                    <h4>Change of body, attitude and consciousness</h4>
+                                                    <ul>
+                                                        <li>Motivation through documented success</li>
+                                                        <li>Continuous adaptation</li>
+                                                        <li>Matching subjective perception and objective measurements (autosensitive training)</li>
+                                                        <li>Improved understanding of physiological processes</li>
+                                                    </ul>
+                                                </div>
                                                 <div class="content__action">
                                                     <a href="#" class="btn btn-primary btn-round">More Information</a>
                                                 </div>
@@ -53,72 +89,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="container">
-                                        <div class="content-wrapper">
-                                            <div class="image">
-                                                <img src="/theme_25fit/static/src/images/model-fullpage-01.png" />
-                                            </div>
-                                            <div class="content">
-                                                <div class="content__heading">
-                                                    <div class="icon">
-                                                        <i class="fa fa-bolt"></i>
-                                                    </div>
-                                                    <h3>Nhanh</h3>
-                                                </div>
-                                                <div class="content__desc">
-                                                    <h4>Change of body, attitude and consciousness</h4>
-                                                    <ul>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                    </ul>
-                                                </div>
-
-                                                <div class="content__action">
-                                                    <a href="#" class="btn btn-primary btn-round">More Information</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="button-navigation-group">
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="container">
-                                        <div class="content-wrapper">
-                                            <div class="image">
-                                                <img src="/theme_25fit/static/src/images/model-fullpage-01.png" />
-                                            </div>
-                                            <div class="content">
-                                                <div class="content__heading">
-                                                    <div class="icon">
-                                                        <i class="fa fa-bolt"></i>
-                                                    </div>
-                                                    <h3>Nhanh</h3>
-                                                </div>
-                                                <div class="content__desc">
-                                                    <h4>Change of body, attitude and consciousness</h4>
-                                                    <ul>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                    </ul>
-                                                </div>
-
-                                                <div class="content__action">
-                                                    <a href="#" class="btn btn-primary btn-round">More Information</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="swiper-pagination swiper-pagination-dots"></div>
                             </div>
-                            <div class="swiper-pagination swiper-pagination-dots"></div>
                         </div>
                     </section>
                     <section class="testimonial-section">

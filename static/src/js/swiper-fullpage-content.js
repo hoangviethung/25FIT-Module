@@ -16,17 +16,14 @@ odoo.define("theme_25fit.fullpage_content_section", function (require) {
                     el: ".fullpage-content-swiper .swiper-pagination-dots",
                     clickable: true,
                 },
-                direction: "horizontal",
-                // mousewheel: {
-                //     invert: false,
-                //     releaseOnEdges: true,
-                //     forceToAxis: true,
-                //     thresholdDelta: 100,
-                // },
-                parallax: true,
-                speed: 1000,
-                breakpoints: {
-                    1025: { direction: "vertical" },
+                speed: 1500,
+                simulateTouch: false,
+                autoplay: {
+                    delay: 10000,
+                },
+                navigation: {
+                    nextEl: ".fullpage-content-swiper .swiper-button-next",
+                    prevEl: ".fullpage-content-swiper .swiper-button-prev",
                 },
             });
         },

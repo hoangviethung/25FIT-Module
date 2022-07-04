@@ -18,6 +18,7 @@
         'views/snippets/s_antiseptic_model.xml',
         'views/snippets/snippets.xml',
         # Demo View
+        'views/header.xml',
         'views/demo_homepage.xml',
         'views/demo_ems_training.xml',
         'views/demo_franchise.xml',
@@ -46,6 +47,7 @@
             "/theme_25fit/static/src/scss/website.ui.scss",
             # Theme JS
             "/theme_25fit/static/src/js/checkout.js",
+            "/theme_25fit/static/src/js/menu.js",
             "/theme_25fit/static/src/js/home.js",
             "/theme_25fit/static/src/js/swiper-fullpage-content.js",
             "/theme_25fit/static/src/js/swiper-testimonial.js",
