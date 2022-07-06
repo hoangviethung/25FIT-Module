@@ -17,7 +17,7 @@ odoo.define("theme_25fit.testimonial_section", function (require) {
                     clickable: true,
                 },
                 autoplay: {
-                    delay: 3000,
+                    delay: 5000,
                 },
                 simulateTouch: false,
                 effect: "fade",

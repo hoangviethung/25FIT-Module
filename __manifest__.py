@@ -51,6 +51,7 @@
             "/theme_25fit/static/src/js/home.js",
             "/theme_25fit/static/src/js/swiper-fullpage-content.js",
             "/theme_25fit/static/src/js/swiper-testimonial.js",
+            "/theme_25fit/static/src/js/content-and-image-style-01.js",
         ],
         'web._assets_primary_variables': [
             "/theme_25fit/static/src/scss/primary_variables.scss",
