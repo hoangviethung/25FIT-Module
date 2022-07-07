@@ -123,7 +123,79 @@
                         </div>
                     </section>
                     <section class="timeline-style-01" style="background-image:url('/theme_25fit/static/src/images/bg-timeline.png')">
-                        <div class="container"></div>
+                        <div class="container">
+                            <div class="timeline">
+                                <div class="timeline__item">
+                                    <div class="item__year">2019</div>
+                                    <div class="item__desc">Thành lập studio 25 FIT đầu tiên</div>
+                                </div>
+                                <div class="timeline__item">
+                                    <div class="item__year">2020</div>
+                                    <div class="item__desc">20 phòng tập</div>
+                                </div>
+                                <div class="timeline__item">
+                                    <div class="item__year">03 - 2020</div>
+                                    <div class="item__desc">Bắt đầu triển khai dịch vụ 25 FIT AT HOME</div>
+                                </div>
+                                <div class="timeline__item timeline__item--active">
+                                    <div class="item__year">2022</div>
+                                    <div class="item__desc">100 phòng tập</div>
+                                </div>
+                                <div class="timeline__item">
+                                    <div class="item__year">2023</div>
+                                    <div class="item__desc">1.000 phòng tập</div>
+                                </div>
+                                <div class="timeline__item">
+                                    <div class="item__year">2025</div>
+                                    <div class="item__desc">IPO - 10.000 phòng tập</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="call-to-action-03">
+                        <div class="container">
+                            <div class="list-item">
+                                <div class="item">
+                                    <div class="heading">
+                                        <div class="icon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <span>2</span>
+                                    </div>
+                                    <div class="desc">Năm hoạt động</div>
+                                </div>
+                                <div class="item">
+                                    <div class="heading">
+                                        <div class="icon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <span>>40</span>
+                                    </div>
+                                    <div class="desc">Phòng tập</div>
+                                </div>
+                                <div class="item">
+                                    <div class="heading">
+                                        <div class="icon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <span>>4.700</span>
+                                    </div>
+                                    <div class="desc">Hội viên</div>
+                                </div>
+                                <div class="item">
+                                    <div class="heading">
+                                        <div class="icon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <span>13</span>
+                                    </div>
+                                    <div class="desc">Phòng tập nhượng quyền</div>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="btn btn-secondary">Đăng ký nhượng quyền ngay</a>
+                            </div>
+                        </div>
                     </section>
                     <section class="testimonial-style-01">
                         <div class="container">
@@ -234,6 +306,85 @@
                             <div class="title-section-default title-section-default--center">
                                 <div class="sub-heading">PROCESS</div>
                                 <h3 class="heading cl-white">Franchising Process</h3>
+                            </div>
+                            <div class="process">
+                                <div class="process__item">
+                                    <h3 class="item__step">1</h3>
+                                    <div class="item__image">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/process-step-01.png" alt="process-step-01"/>
+                                        </div>
+                                    </div>
+                                    <div class="item__desc">Get to know both side</div>
+                                </div>
+                                <div class="process__item">
+                                    <h3 class="item__step">2</h3>
+                                    <div class="item__image">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/process-step-02.png" alt="process-step-02"/>
+                                        </div>
+                                    </div>
+                                    <div class="item__desc">Sign the contract agreement</div>
+                                </div>
+                                <div class="process__item">
+                                    <h3 class="item__step">3</h3>
+                                    <div class="item__image">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/process-step-03.png" alt="process-step-03"/>
+                                        </div>
+                                    </div>
+                                    <div class="item__desc">Meet the Board of Directors</div>
+                                </div>
+                                <div class="process__item">
+                                    <h3 class="item__step">4</h3>
+                                    <div class="item__image">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/process-step-04.png" alt="process-step-04"/>
+                                        </div>
+                                    </div>
+                                    <div class="item__desc">Sign the official contract</div>
+                                </div>
+                                <div class="process__item">
+                                    <h3 class="item__step">5</h3>
+                                    <div class="item__image">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/process-step-05.png" alt="process-step-05"/>
+                                        </div>
+                                    </div>
+                                    <div class="item__desc">Project implementation</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="gallery-style-01">
+                        <div class="container">
+                            <div class="title-section-default">
+                                <div class="sub-heading">Studios Gallery</div>
+                                <h3 class="heading">Franchising Studios Gallery</h3>
+                            </div>
+                            <div class="swiper gallery-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/gallery-01.png" alt="gallery-01"/>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/gallery-02.png" alt="gallery-02"/>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/gallery-03.png" alt="gallery-03"/>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="image">
+                                            <img src="/theme_25fit/static/src/images/gallery-04.png" alt="gallery-04"/>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
