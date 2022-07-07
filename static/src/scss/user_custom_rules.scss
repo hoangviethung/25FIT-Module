@@ -88,14 +88,20 @@ body {
     }
 }
 
-.gutter-48 > .col,
-.gutter-48 > [class*="col-"] {
+.gx-48 > .col,
+.gx-48 > [class*="col-"] {
     padding-right: 24px;
     padding-left: 24px;
 }
 
-.gutter-80 > .col,
-.gutter-80 > [class*="col-"] {
+.gx-64 > .col,
+.gx-64 > [class*="col-"] {
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.gx-80 > .col,
+.gx-80 > [class*="col-"] {
     padding-right: 40px;
     padding-left: 40px;
 }

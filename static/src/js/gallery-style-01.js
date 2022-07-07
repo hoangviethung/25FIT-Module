@@ -15,8 +15,9 @@ odoo.define("theme_25fit.gallery_style_01", function (require) {
                 loop: true,
                 spaceBetween: 16,
                 autoplay: {
-                    delay: 5000,
+                    delay: 3000,
                 },
+                speed: 1500,
                 simulateTouch: false,
                 breakpoints: {
                     768: {
@@ -25,8 +26,11 @@ odoo.define("theme_25fit.gallery_style_01", function (require) {
                     },
                     1024: {
                         slidesPerView: 4,
-                        spaceBetween: 32,
                     },
+                },
+                navigation: {
+                    nextEl: ".gallery-style-01 .swiper-button-next",
+                    prevEl: ".gallery-style-01 .swiper-button-prev",
                 },
             });
         },
