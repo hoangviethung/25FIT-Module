@@ -2,9 +2,9 @@
 <odoo>
     <template id="demo_homepage" name="Demo Home Page">
         <t t-call="website.layout">
-            <div id="wrap">
-                <t t-raw="0"/>
-                <div id="layout-home-js">
+            <div id="layout-home-js">
+                <div id="wrap">
+                    <t t-raw="0"/>
                     <section class="hero-banner-style-01" style="background-image: url('/theme_25fit/static/src/images/bg-hero-banner-01.png')">
                         <div class="container h-100">
                             <div class="content-wrapper">
@@ -18,7 +18,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="fullpage-content-section">
+                    <section class="fullpage-content-style-01">
                         <div class="container">
                             <div class="swiper fullpage-content-swiper">
                                 <div class="swiper-wrapper">
@@ -97,7 +97,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="testimonial-section">
+                    <section class="testimonial-style-01">
                         <div class="container">
                             <div class="title-section-default title-section-default--center">
                                 <div class="sub-heading">Testimonial</div>
@@ -238,10 +238,10 @@
                             <a class="btn btn-primary" href="#">Book a Trial EMS session</a>
                         </div>
                     </section>
+                    <!-- Droppable-area shared across all 25fit pages -->
+                    <t t-set="oe_structure_25fit_footer_description">Visible in all 25fit pages</t>
+                    <div class="oe_structure oe_empty" id="oe_structure_25fit_footer" t-att-data-editor-sub-message="oe_structure_25fit_footer_description"/>
                 </div>
-                <!-- Droppable-area shared across all 25fit pages -->
-                <t t-set="oe_structure_25fit_footer_description">Visible in all 25fit pages</t>
-                <div class="oe_structure oe_empty" id="oe_structure_25fit_footer" t-att-data-editor-sub-message="oe_structure_25fit_footer_description"/>
             </div>
         </t>
     </template>

@@ -1,8 +1,8 @@
-odoo.define("theme_25fit.fullpage_content_section", function (require) {
+odoo.define("theme_25fit.fullpage_content_style_01", function (require) {
     ("use strict");
     const publicWidget = require("web.public.widget");
     publicWidget.registry.fullpageContentSection = publicWidget.Widget.extend({
-        selector: ".fullpage-content-section",
+        selector: ".fullpage-content-style-01",
         xmlDependencies: [],
         events: {},
         start: function () {

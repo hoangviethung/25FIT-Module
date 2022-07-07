@@ -1,8 +1,8 @@
-odoo.define("theme_25fit.testimonial_section", function (require) {
+odoo.define("theme_25fit.testimonial_style_01", function (require) {
     ("use strict");
     const publicWidget = require("web.public.widget");
     publicWidget.registry.TestimonialSection = publicWidget.Widget.extend({
-        selector: ".testimonial-section",
+        selector: ".testimonial-style-01",
         xmlDependencies: [],
         events: {},
         start: function () {

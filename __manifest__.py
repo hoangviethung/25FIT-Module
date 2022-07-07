@@ -2,13 +2,15 @@
 {
     'name': 'Theme 25FIT',
     'summary': 'Theme 25FIT Version 2.0',
-    'version': '2.0',
+    'version': '1.0',
     'author': '25FIT',
-    'category': 'Theme/Theme 25FIT',
+    'category': 'Theme',
+    'sequence': 2000,
     'maintainer': '25FIT',
     'company': '25FIT',
     'support': 'welisten@25fit.net',
     'website': 'https://25fit.net/en/',
+    'license': 'LGPL-3',
     'depends': [
         # Odoo
         'website',
@@ -44,6 +46,7 @@
             # Snippets SCSS
             "/theme_25fit/static/src/scss/snippets/s_antiseptic_model.scss",
             # Website UI Kit
+            "/theme_25fit/static/src/scss/user_custom_rules.scss",
             "/theme_25fit/static/src/scss/website.ui.scss",
             # Theme JS
             "/theme_25fit/static/src/js/checkout.js",
@@ -57,7 +60,7 @@
             "/theme_25fit/static/src/scss/primary_variables.scss",
         ],
         'web._assets_frontend_helpers': [
-            ('prepend', '/theme_25fit/static/src/scss/bootstrap_overridden.scss'),
+            ('prepend', '/theme_25fit/static/src/scss/user_custom_bootstrap_overridden.scss'),
         ],
         'website.assets_wysiwyg': [
             ('include', 'web._assets_helpers'),
@@ -66,7 +69,6 @@
     'images': [
         'static/description/screenshot.png',
     ],
-    'installable': True,
     'application': True,
     'auto_install': True,
 }
