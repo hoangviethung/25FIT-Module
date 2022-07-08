@@ -20,7 +20,7 @@
         'views/snippets/s_antiseptic_model.xml',
         'views/snippets/snippets.xml',
         # Demo View
-        'views/header.xml',
+        'views/website_templates.xml',
         'views/demo_homepage.xml',
         'views/demo_ems_training.xml',
         'views/demo_franchise.xml',
@@ -32,9 +32,7 @@
         'views/demo_booking_details.xml',
         'views/demo_your_booking_information.xml',
     ],
-    'qweb': [
-        'static/xml/*.xml',
-    ],
+    'qweb': [],
     'assets':{
         'web.assets_frontend': [
             # Library SCSS
@@ -70,6 +68,4 @@
     'images': [
         'static/description/screenshot.png',
     ],
-    'application': True,
-    'auto_install': True,
 }

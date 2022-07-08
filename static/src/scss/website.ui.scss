@@ -1,7 +1,43 @@
 #layout-home-js {
-    .fullpage-content-section {
+    .fullpage-content-style-01 {
         margin-top: -4px;
     }
+}
+
+header {
+    // &#top {
+    //     .navbar {
+    //         #top_menu {
+    //             .nav-item {
+    //                 + .nav-item {
+    //                     margin-left: 8px;
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     &:not(.o_header_affixed) {
+    //         .navbar-light .navbar-nav .show > .nav-link,
+    //         .navbar-light .navbar-nav .active > .nav-link,
+    //         .navbar-light .navbar-nav .nav-link.show,
+    //         .navbar-light .navbar-nav .nav-link.active {
+    //             color: map-get($map: $custom-theme-colors, $key: "primary");
+    //         }
+    //         .navbar-brand {
+    //             &.logo img {
+    //                 filter: brightness(0) invert(1);
+    //             }
+    //         }
+    //         .navbar-light {
+    //             background-color: transparent;
+    //             box-shadow: unset !important;
+    //             .navbar-nav {
+    //                 .nav-link {
+    //                     color: #ffffff;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 .section-checkout-wrapper-25fit {
@@ -32,7 +68,7 @@
         mask-repeat: no-repeat;
         -webkit-mask-position: center center;
         mask-position: center center;
-        background: map-get($map: $theme-colors, $key: "primary");
+        background: map-get($map: $custom-theme-colors, $key: "primary");
         margin-bottom: 8px;
     }
     .heading {
@@ -78,7 +114,7 @@
 }
 
 .block-header-checkout-25fit {
-    background-color: map-get($map: $theme-colors, $key: "secondary-2");
+    background-color: map-get($map: $custom-theme-colors, $key: "secondary-2");
     padding: 12px;
     ul {
         display: flex;
@@ -118,7 +154,10 @@
             position: relative;
             background-color: #ffffff;
             .icon {
-                color: map-get($map: $theme-colors, $key: "neutral-grey-1");
+                color: map-get(
+                    $map: $custom-theme-colors,
+                    $key: "neutral-grey-1"
+                );
                 font-size: 16px;
                 position: relative;
                 z-index: 1;
@@ -173,11 +212,14 @@
         }
         &.active {
             .text {
-                color: map-get($map: $theme-colors, $key: "secondary");
+                color: map-get($map: $custom-theme-colors, $key: "secondary");
             }
             .icon-wrapper {
                 .icon {
-                    color: map-get($map: $theme-colors, $key: "secondary");
+                    color: map-get(
+                        $map: $custom-theme-colors,
+                        $key: "secondary"
+                    );
                     &::before {
                         content: "\f058";
                     }
@@ -217,7 +259,8 @@
         }
         select {
             cursor: pointer;
-            border: 1px solid map-get($map: $theme-colors, $key: "primary");
+            border: 1px solid
+                map-get($map: $custom-theme-colors, $key: "primary");
             padding: 4px 32px 4px 16px;
             border-radius: 8px;
             appearance: none;
@@ -232,7 +275,10 @@
         flex-wrap: wrap;
         align-items: center;
         padding: 16px 12px;
-        background-color: map-get($map: $theme-colors, $key: "neutral-grey-4");
+        background-color: map-get(
+            $map: $custom-theme-colors,
+            $key: "neutral-grey-4"
+        );
         border-radius: 6px;
         transition: 0.3s all ease-in-out;
         border-width: 2px;
@@ -264,7 +310,7 @@
             margin-top: 12px;
         }
         &.checked {
-            border-color: map-get($map: $theme-colors, $key: "primary");
+            border-color: map-get($map: $custom-theme-colors, $key: "primary");
             box-shadow: 0px 16px 32px rgba(34, 34, 34, 0.08),
                 0px 8px 16px rgba(34, 34, 34, 0.08);
         }
@@ -290,7 +336,10 @@
     .order-name-plan {
         color: #ffffff;
         text-align: center;
-        background-color: map-get($map: $theme-colors, $key: "secondary-2");
+        background-color: map-get(
+            $map: $custom-theme-colors,
+            $key: "secondary-2"
+        );
         padding: 22px 0;
         border-radius: 6px;
         margin-top: 20px;
@@ -337,7 +386,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: map-get($map: $theme-colors, $key: "neutral-grey-4");
+        background-color: map-get(
+            $map: $custom-theme-colors,
+            $key: "neutral-grey-4"
+        );
         padding: 16px 12px;
         border-radius: 6px;
         .head__left {
@@ -354,7 +406,10 @@
 }
 
 .block-your-checkout-information {
-    background-color: map-get($map: $theme-colors, $key: "neutral-grey-4");
+    background-color: map-get(
+        $map: $custom-theme-colors,
+        $key: "neutral-grey-4"
+    );
     padding: 16px 12px 20px;
     border-radius: 6px;
     .information-header {
@@ -374,7 +429,7 @@
         }
         .edit-information {
             font-size: 13px;
-            color: map-get($map: $theme-colors, $key: "primary");
+            color: map-get($map: $custom-theme-colors, $key: "primary");
             padding-left: 20px;
         }
         @media (min-width: 576px) {
@@ -488,7 +543,7 @@
             box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
             border-radius: 8px;
             background-color: map-get(
-                $map: $theme-colors,
+                $map: $custom-theme-colors,
                 $key: "neutral-grey-4"
             );
             table {
@@ -601,7 +656,10 @@
         }
         .information__item--time {
             color: #ffffff;
-            background-color: map-get($map: $theme-colors, $key: "secondary-2");
+            background-color: map-get(
+                $map: $custom-theme-colors,
+                $key: "secondary-2"
+            );
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -633,7 +691,10 @@
                 td {
                     padding: 8px;
                     border-bottom: 1px solid
-                        map-get($map: $theme-colors, $key: "neutral-grey-3");
+                        map-get(
+                            $map: $custom-theme-colors,
+                            $key: "neutral-grey-3"
+                        );
                     @media (min-width: 576px) {
                         padding: 16px;
                     }
@@ -650,7 +711,7 @@
                         > span {
                             font-size: 0.625rem;
                             color: map-get(
-                                $map: $theme-colors,
+                                $map: $custom-theme-colors,
                                 $key: "neutral-grey-1"
                             );
                             font-weight: 400;
@@ -663,13 +724,19 @@
                     }
                     &:not(:first-child) {
                         border-right: 1px solid
-                            map-get($map: $theme-colors, $key: "neutral-grey-3");
+                            map-get(
+                                $map: $custom-theme-colors,
+                                $key: "neutral-grey-3"
+                            );
                     }
                 }
                 &:first-child {
                     td {
                         border-top: 1px solid
-                            map-get($map: $theme-colors, $key: "neutral-grey-3");
+                            map-get(
+                                $map: $custom-theme-colors,
+                                $key: "neutral-grey-3"
+                            );
                     }
                 }
                 &:last-child {
@@ -677,7 +744,7 @@
                         &:first-child {
                             border-bottom: 1px solid
                                 map-get(
-                                    $map: $theme-colors,
+                                    $map: $custom-theme-colors,
                                     $key: "neutral-grey-3"
                                 );
                         }
@@ -752,7 +819,7 @@
 .title-section-wrapper-25fit {
     padding-bottom: 16px;
     border-bottom: 1px solid
-        map-get($map: $theme-colors, $key: "neutral-grey-3");
+        map-get($map: $custom-theme-colors, $key: "neutral-grey-3");
     .title-section {
         font-size: 1rem;
         font-weight: 500;
@@ -823,7 +890,7 @@
             line-height: 64px;
             span {
                 font-size: 64px;
-                color: map-get($map: $theme-colors, $key: "primary");
+                color: map-get($map: $custom-theme-colors, $key: "primary");
             }
             @media (max-width: 1024.98px) {
                 font-size: 24px;
@@ -877,11 +944,14 @@
 }
 
 .fullpage-content-style-01 {
-    background-color: map-get($map: $theme-colors, $key: "neutral-black");
+    background-color: map-get(
+        $map: $custom-theme-colors,
+        $key: "neutral-black"
+    );
     .fullpage-content-swiper {
         padding: 8vh 0;
         .swiper-pagination-bullet {
-            background: map-get($map: $theme-colors, $key: "primary");
+            background: map-get($map: $custom-theme-colors, $key: "primary");
             transition: 0.3s all ease-in-out;
         }
         .swiper-pagination-bullet-active {
@@ -904,7 +974,7 @@
         }
         .swiper-button-prev,
         .swiper-button-next {
-            color: map-get($map: $theme-colors, $key: "neutral-black");
+            color: map-get($map: $custom-theme-colors, $key: "neutral-black");
             position: static;
             top: 0;
             margin-top: 0;
@@ -1042,7 +1112,7 @@
             margin-top: 8px;
         }
         .swiper-pagination-bullet {
-            background: map-get($map: $theme-colors, $key: "primary");
+            background: map-get($map: $custom-theme-colors, $key: "primary");
             transition: 0.3s all ease-in-out;
         }
         .swiper-pagination-bullet-active {
@@ -1074,7 +1144,7 @@
         margin: 16px auto 0;
         text-align: center;
         &::before {
-            color: map-get($map: $theme-colors, $key: "neutral-grey-3");
+            color: map-get($map: $custom-theme-colors, $key: "neutral-grey-3");
             display: block;
             font-size: 44px;
             content: "\f10e";
@@ -1087,7 +1157,10 @@
         margin-top: 16px;
         span {
             + span {
-                color: map-get($map: $theme-colors, $key: "neutral-grey-1");
+                color: map-get(
+                    $map: $custom-theme-colors,
+                    $key: "neutral-grey-1"
+                );
                 font-weight: 400;
                 font-style: italic;
             }
@@ -1143,13 +1216,19 @@
 
 .call-to-action-01 {
     &:after {
-        background-color: map-get($map: $theme-colors, $key: "secondary-2");
+        background-color: map-get(
+            $map: $custom-theme-colors,
+            $key: "secondary-2"
+        );
     }
 }
 
 .call-to-action-03 {
     padding: 80px 0;
-    background-color: map-get($map: $theme-colors, $key: "neutral-black");
+    background-color: map-get(
+        $map: $custom-theme-colors,
+        $key: "neutral-black"
+    );
     .list-item {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -1168,7 +1247,7 @@
             align-items: center;
             .icon {
                 font-size: 36px;
-                color: map-get($map: $theme-colors, $key: "primary");
+                color: map-get($map: $custom-theme-colors, $key: "primary");
                 @media (max-width: 1199.98px) {
                     font-size: 32px;
                 }
@@ -1213,7 +1292,10 @@
 
 .call-to-action-02 {
     &:after {
-        background-color: map-get($map: $theme-colors, $key: "neutral-black");
+        background-color: map-get(
+            $map: $custom-theme-colors,
+            $key: "neutral-black"
+        );
     }
 }
 
@@ -1248,7 +1330,10 @@
 .content-and-image-style-01 {
     padding-bottom: 80px;
     margin-top: 80px;
-    background-color: map-get($map: $theme-colors, $key: "neutral-grey-3");
+    background-color: map-get(
+        $map: $custom-theme-colors,
+        $key: "neutral-grey-3"
+    );
     .title-section-default {
         margin-bottom: 16px;
     }
@@ -1279,11 +1364,14 @@
         margin-top: 16px;
         .btn {
             color: #ffffff;
-            background-color: map-get($map: $theme-colors, $key: "secondary-2");
+            background-color: map-get(
+                $map: $custom-theme-colors,
+                $key: "secondary-2"
+            );
         }
     }
     .swiper-pagination-bullet {
-        background: map-get($map: $theme-colors, $key: "primary");
+        background: map-get($map: $custom-theme-colors, $key: "primary");
         transition: 0.3s all ease-in-out;
     }
     .max-width-604 {
@@ -1335,7 +1423,7 @@
                 flex: 0 0 32px;
                 max-width: 32px;
                 height: 32px;
-                color: map-get($map: $theme-colors, $key: "secondary-2");
+                color: map-get($map: $custom-theme-colors, $key: "secondary-2");
                 font-size: 24px;
                 @media (max-width: 575.98px) {
                     font-size: 16px;
@@ -1362,7 +1450,10 @@
                 }
             }
             p {
-                color: map-get($map: $theme-colors, $key: "neutral-grey-1");
+                color: map-get(
+                    $map: $custom-theme-colors,
+                    $key: "neutral-grey-1"
+                );
                 margin-top: 8px;
             }
         }
@@ -1438,7 +1529,10 @@
         }
     }
     &.has-background {
-        background-color: map-get($map: $theme-colors, $key: "neutral-grey-3");
+        background-color: map-get(
+            $map: $custom-theme-colors,
+            $key: "neutral-grey-3"
+        );
         padding-bottom: 80px;
         @media (max-width: 575.98px) {
             padding-bottom: 40px;
@@ -1507,7 +1601,7 @@
         }
         &--active {
             .item__year {
-                color: map-get($map: $theme-colors, $key: "primary");
+                color: map-get($map: $custom-theme-colors, $key: "primary");
             }
         }
         &:nth-child(2n + 1) {
@@ -1534,7 +1628,10 @@
     }
     &:after {
         content: "";
-        background-color: map-get($map: $theme-colors, $key: "neutral-black");
+        background-color: map-get(
+            $map: $custom-theme-colors,
+            $key: "neutral-black"
+        );
         position: absolute;
         top: 0;
         left: 0;
@@ -1549,7 +1646,7 @@
     .call-to-action-03 {
         margin-top: 80px;
         background-color: rgba(
-            $color: map-get($map: $theme-colors, $key: "neutral-black"),
+            $color: map-get($map: $custom-theme-colors, $key: "neutral-black"),
             $alpha: 0.8
         );
         @media (max-width: 575.98px) {
@@ -1566,7 +1663,10 @@
     background-position: center center;
     &:after {
         content: "";
-        background-color: map-get($map: $theme-colors, $key: "neutral-black");
+        background-color: map-get(
+            $map: $custom-theme-colors,
+            $key: "neutral-black"
+        );
         position: absolute;
         top: 0;
         left: 0;
@@ -1681,7 +1781,10 @@
 
 .gallery-style-01 {
     padding: 80px 0;
-    background-color: map-get($map: $theme-colors, $key: "neutral-grey-3");
+    background-color: map-get(
+        $map: $custom-theme-colors,
+        $key: "neutral-grey-3"
+    );
     .button-navigation-group {
         display: flex;
         gap: 8px;
@@ -1693,7 +1796,7 @@
     }
     .swiper-button-prev,
     .swiper-button-next {
-        color: map-get($map: $theme-colors, $key: "neutral-black");
+        color: map-get($map: $custom-theme-colors, $key: "neutral-black");
         position: static;
         top: 0;
         margin-top: 0;

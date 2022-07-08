@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<odoo>
-    <template id="theme_25fit_header" inherit_id="website.layout" name="Header Theme 25FIT">
-    </template>
-</odoo>
