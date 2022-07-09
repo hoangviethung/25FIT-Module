@@ -1,6 +1,7 @@
 odoo.define("theme_25fit.layout_home_js", function (require) {
     ("use strict");
     const publicWidget = require("web.public.widget");
+
     publicWidget.registry.layoutHomeJs = publicWidget.Widget.extend({
         selector: "#layout-home-js",
         xmlDependencies: [],

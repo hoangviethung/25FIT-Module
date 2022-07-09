@@ -8,8 +8,15 @@ odoo.define("theme_25fit.content.menu", function (require) {
          * @override
          */
         start: function () {
-            console.log(this);
+            // this._super(...arguments);
+            this.$main = this.$el.next("main");
             return this._super.apply(this, arguments);
+        },
+        /**
+         * @private
+         */ _updateMainPaddingTop: function () {
+            this._super(...arguments);
+            this.$main.css("padding-top", 0);
         },
     });
 });
