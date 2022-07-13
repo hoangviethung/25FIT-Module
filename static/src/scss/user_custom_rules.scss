@@ -25,12 +25,23 @@ body {
 .o_header_default_affixed {
     .navbar {
         padding: 0.75rem 1rem;
+        @media (max-width: 992.98px) {
+            .navbar-collapse {
+                padding-top: 0.5rem;
+            }
+        }
+    }
+    .js_usermenu {
+        @media (max-width: 992.98px) {
+            margin: 0 0 0.5rem 0;
+        }
     }
     .js_language_selector {
         .btn-outline-secondary {
             font-size: 1rem;
             color: rgba($color: #000000, $alpha: 0.5);
             background-color: transparent;
+            padding: 0;
             > .o_lang_flag {
                 width: 24px;
                 height: 24px;
@@ -45,54 +56,70 @@ body {
                 background-color: transparent !important;
             }
         }
+        @media (max-width: 992.98px) {
+            padding: 0.5rem 0;
+            .dropdown-menu {
+                position: static;
+                float: none;
+                margin: 0.5rem 0 0 0;
+            }
+        }
+    }
+    .navbar-toggler {
+        outline: none;
     }
     &:not(.o_header_affixed) {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: auto;
-        .navbar {
-            padding: 1.875rem 1rem;
-            box-shadow: unset !important;
-        }
-        .js_language_selector {
-            .btn-outline-secondary {
-                color: #ffffff;
-                &:hover,
-                &:focus,
-                &:active {
-                    color: #ffffff !important;
-                }
+        @media (min-width: 992px) {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: auto;
+            .navbar {
+                padding: 1.875rem 1rem;
+                box-shadow: unset !important;
             }
-        }
-        .navbar-brand {
-            &.logo img {
-                filter: brightness(0) invert(1);
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
             }
-        }
-        .navbar-light {
-            background-color: transparent;
-            box-shadow: unset !important;
-            .navbar-nav {
-                .nav-link {
+            .js_language_selector {
+                .btn-outline-secondary {
                     color: #ffffff;
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        color: #ffffff !important;
+                    }
                 }
             }
-        }
-        #top_menu {
-            .nav-item {
-                + .nav-item {
-                    margin-left: 8px;
+            .navbar-brand {
+                &.logo img {
+                    filter: brightness(0) invert(1);
                 }
             }
-        }
-        .navbar-light .navbar-nav .show > .nav-link,
-        .navbar-light .navbar-nav .active > .nav-link,
-        .navbar-light .navbar-nav .nav-link.show,
-        .navbar-light .navbar-nav .nav-link.active {
-            color: map-get($map: $custom-theme-colors, $key: "primary");
+            .navbar-light {
+                background-color: transparent;
+                box-shadow: unset !important;
+                .navbar-nav {
+                    .nav-link {
+                        color: #ffffff;
+                    }
+                }
+            }
+            #top_menu {
+                .nav-item {
+                    + .nav-item {
+                        margin-left: 8px;
+                    }
+                }
+            }
+            .navbar-light .navbar-nav .show > .nav-link,
+            .navbar-light .navbar-nav .active > .nav-link,
+            .navbar-light .navbar-nav .nav-link.show,
+            .navbar-light .navbar-nav .nav-link.active {
+                color: map-get($map: $custom-theme-colors, $key: "primary");
+            }
         }
     }
 }

@@ -15,7 +15,7 @@ odoo.define("theme_25fit.gallery_style_01", function (require) {
                 loop: true,
                 spaceBetween: 16,
                 autoplay: {
-                    delay: 3000,
+                    delay: 1500,
                 },
                 speed: 1500,
                 simulateTouch: false,

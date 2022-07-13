@@ -32,9 +32,13 @@ $o-color-palettes: map-merge(
                     $map: $custom-theme-colors,
                     $key: "secondary",
                 ),
-            "o-color-3": #eceae4,
+            "o-color-3":
+                map-get(
+                    $map: $custom-theme-colors,
+                    $key: "neutral-grey-3",
+                ),
             "o-color-4": #ffffff,
-            "o-color-5": #16121f,
+            "o-color-5": #222222,
         ),
     )
 );

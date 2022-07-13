@@ -831,6 +831,10 @@
             align-items: center;
             margin-top: 36px;
             gap: 24px;
+            .btn-lg,
+            .btn-group-lg > .btn {
+                padding: 1rem 2rem;
+            }
         }
     }
     @media (max-width: 1024.98px) {
@@ -1330,7 +1334,7 @@
             color: #ffffff;
             background-color: map-get(
                 $map: $custom-theme-colors,
-                $key: "secondary-2"
+                $key: "primary"
             );
         }
     }
