@@ -363,22 +363,22 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="image">
-                                            <img src="/theme_25fit/static/src/images/gallery-01.png" alt="gallery-01" data-target="#carouselExampleGalleryStyle01" data-slide-to="0" />
+                                            <img src="/theme_25fit/static/src/images/gallery-01.jpeg" alt="gallery-01" data-target="#carouselExampleGalleryStyle01" data-slide-to="0" />
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="image">
-                                            <img src="/theme_25fit/static/src/images/gallery-02.png" alt="gallery-02" data-target="#carouselExampleGalleryStyle01" data-slide-to="1"/>
+                                            <img src="/theme_25fit/static/src/images/gallery-02.jpeg" alt="gallery-02" data-target="#carouselExampleGalleryStyle01" data-slide-to="1"/>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="image">
-                                            <img src="/theme_25fit/static/src/images/gallery-03.png" alt="gallery-03" data-target="#carouselExampleGalleryStyle01" data-slide-to="2" />
+                                            <img src="/theme_25fit/static/src/images/gallery-03.jpeg" alt="gallery-03" data-target="#carouselExampleGalleryStyle01" data-slide-to="2" />
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="image">
-                                            <img src="/theme_25fit/static/src/images/gallery-04.png" alt="gallery-04" data-target="#carouselExampleGalleryStyle01" data-slide-to="3" />
+                                            <img src="/theme_25fit/static/src/images/gallery-04.jpeg" alt="gallery-04" data-target="#carouselExampleGalleryStyle01" data-slide-to="3" />
                                         </div>
                                     </div>
                                 </div>
@@ -394,16 +394,16 @@
                                             <div id="carouselExampleGalleryStyle01" class="carousel slide" data-ride="carousel">
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
-                                                        <img src="/theme_25fit/static/src/images/gallery-01.png" />
+                                                        <img src="/theme_25fit/static/src/images/gallery-01.jpeg" />
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img src="/theme_25fit/static/src/images/gallery-02.png" />
+                                                        <img src="/theme_25fit/static/src/images/gallery-02.jpeg" />
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img src="/theme_25fit/static/src/images/gallery-03.png" />
+                                                        <img src="/theme_25fit/static/src/images/gallery-03.jpeg" />
                                                     </div>
                                                     <div class="carousel-item">
-                                                        <img src="/theme_25fit/static/src/images/gallery-04.png" />
+                                                        <img src="/theme_25fit/static/src/images/gallery-04.jpeg" />
                                                     </div>
                                                 </div>
                                                 <a class="carousel-control-prev o_we_no_overlay" href="#carouselExampleGalleryStyle01" data-slide="prev" aria-label="Trước đó" title="Trước đó">
