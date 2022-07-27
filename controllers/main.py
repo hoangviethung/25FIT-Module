@@ -42,3 +42,7 @@ class Demo25FitThemeController(Home):
     @http.route(['/demo-your-booking-information'], type='http', auth="public", website=True, sitemap=True)
     def DemoYourBookingInformation(self, **opt):
         return request.render("theme_25fit.demo_your_booking_information")
+
+    @http.route(['/demo-about-us'], type='http', auth="public", website=True, sitemap=True)
+    def DemoYourBookingInformation(self, **opt):
+        return request.render("theme_25fit.demo_about_us")
