@@ -1077,6 +1077,8 @@
 .testimonial-style-01 {
     padding-top: 80px;
     padding-bottom: 80px;
+    background-size: cover;
+    background-position: center center;
     .testimonial-swiper {
         margin-top: 32px;
         .swiper-pagination {
@@ -1893,11 +1895,19 @@
         }
     }
     .news__item {
+        display: block;
+        text-decoration: unset;
         .item__image {
             margin-bottom: 16px;
             img {
-                width: auto;
-                height: 72px;
+                width: 100%;
+                height: auto;
+            }
+            &.logo-news {
+                img {
+                    width: auto;
+                    height: 72px;
+                }
             }
         }
         .item__heading {
@@ -1914,6 +1924,29 @@
         margin-top: 16px;
     }
     .news-style-01-swiper {
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: map-get($map: $custom-theme-colors, $key: "neutral-black");
+            margin-top: 0;
+            width: 44px;
+            height: 44px;
+            background-color: map-get(
+                $map: $custom-theme-colors,
+                $key: "neutral-grey-4"
+            );
+            border-radius: 50%;
+            transition: 0.3s all ease-in-out;
+            &:after {
+                font-size: 18px;
+            }
+            @media (max-width: 1024.98px) {
+                width: 32px;
+                height: 32px;
+                &:after {
+                    font-size: 14px;
+                }
+            }
+        }
         .swiper-pagination-bullet {
             background: map-get($map: $custom-theme-colors, $key: "primary");
             transition: 0.3s all ease-in-out;
@@ -1935,6 +1968,80 @@
             @media (max-width: 575.98px) {
                 margin-top: 16px;
             }
+        }
+    }
+    @media (max-width: 575.98px) {
+        padding: 40px 0;
+    }
+}
+
+.benefits-of-esm-content-style-01 {
+    padding: 80px 0;
+    background-color: map-get(
+        $map: $custom-theme-colors,
+        $key: "neutral-grey-3"
+    );
+    .title-section-default {
+        margin-bottom: 32px;
+    }
+    .content__item {
+        box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
+        margin: 4px;
+        border-radius: 8px;
+        overflow: hidden;
+        .item__content {
+            padding: 16px;
+            background-color: #ffffff;
+        }
+        .item__heading {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .item__image {
+            border-radius: 8px 8px 0 0;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .benefits-of-esm-content-style-01-swiper {
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: map-get($map: $custom-theme-colors, $key: "neutral-black");
+            margin-top: 0;
+            width: 44px;
+            height: 44px;
+            background-color: map-get(
+                $map: $custom-theme-colors,
+                $key: "neutral-grey-4"
+            );
+            border-radius: 50%;
+            transition: 0.3s all ease-in-out;
+            &:after {
+                font-size: 18px;
+            }
+            @media (max-width: 1024.98px) {
+                width: 32px;
+                height: 32px;
+                &:after {
+                    font-size: 14px;
+                }
+            }
+        }
+        .swiper-pagination {
+            position: static;
+            margin-top: 16px;
+        }
+        .swiper-pagination-bullet {
+            background: map-get($map: $custom-theme-colors, $key: "primary");
+            transition: 0.3s all ease-in-out;
+        }
+        .swiper-pagination-bullet-active {
+            width: 24px;
+            border-radius: 8px;
         }
     }
     @media (max-width: 575.98px) {

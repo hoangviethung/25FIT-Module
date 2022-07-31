@@ -12,12 +12,11 @@
                         <div class="container h-100">
                             <div class="content-wrapper">
                                 <h2>VỀ CHÚNG TÔI</h2>
-                                <p></p>
                                 <p>Aliqua nostrud eiusmod dolore proident dolore quis labore sint aliquip. Aliquip irure et incididunt adipisicing sit excepteur non laborum. Magna sit nisi enim dolore anim nulla duis incididunt labore consequat sit. Laboris consequat exercitation ad cupidatat eu nostrud veniam. Minim officia reprehenderit eu anim amet velit eiusmod labore id.</p>
                                 <div class="content__action">
-                                    <a class="btn btn btn-outline-light btn-lg" href="#">About EMS</a>
-                                    <a class="btn btn btn-outline-light btn-lg" href="#">Franchise</a>
-                                    <a class="btn btn btn-outline-light btn-lg" href="#">Studios</a>
+                                    <a class="btn btn btn-outline-light btn-lg" href="/demo-about-ems">About EMS</a>
+                                    <a class="btn btn btn-outline-light btn-lg" href="/demo-franchise">Franchise</a>
+                                    <a class="btn btn btn-outline-light btn-lg" href="https://phongtap.25fit.net/vi/studio-25fit" target="_blank">Studios</a>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +57,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="testimonial-style-01">
+                    <section class="testimonial-style-01" style="background-image: url('/theme_25fit/static/src/images/shape-17.png')">
                         <div class="container">
                             <div class="title-section-default title-section-default--center">
                                 <div class="sub-heading">Testimonial</div>
@@ -136,7 +135,7 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="news__item">
-                                            <div class="item__image">
+                                            <div class="item__image logo-news">
                                                 <img src="/theme_25fit/static/src/images/fbnc.png" alt="fbnc" />
                                             </div>
                                             <div class="item__heading lcl lcl-2">Xu hướng nhượng quyền thương hiệu trong ngành thể hình</div>
@@ -148,7 +147,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="news__item">
-                                            <div class="item__image">
+                                            <div class="item__image logo-news">
                                                 <img src="/theme_25fit/static/src/images/theleader.png" alt="theleader" />
                                             </div>
                                             <div class="item__heading lcl lcl-2">Gym công nghệ bứt phát với mô hình nhượng quyền</div>
@@ -160,7 +159,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="news__item">
-                                            <div class="item__image">
+                                            <div class="item__image logo-news">
                                                 <img src="/theme_25fit/static/src/images/cafebiz.png" alt="cafebiz" />
                                             </div>
                                             <div class="item__heading lcl lcl-2">Ra đời trúng Covid, một startup chuỗi gym công nghệ mở liền tù tì 14 phòng tập: Mời gọi đầu tư 2 tỷ đồng/phòng tập, hứa sau 3 năm lãi 14 tỷ đồng!</div>
@@ -173,7 +172,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="news__item">
-                                            <div class="item__image">
+                                            <div class="item__image logo-news">
                                                 <img src="/theme_25fit/static/src/images/kinhtesaigon.png" alt="cafebiz" />
                                             </div>
                                             <div class="item__heading lcl lcl-2">Bốn doanh nghiệp cung cấp chữ ký số bị buộc tạm ngừng phát triển thuê bao mới
@@ -186,7 +185,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="news__item">
-                                            <div class="item__image">
+                                            <div class="item__image logo-news">
                                                 <img src="/theme_25fit/static/src/images/cafef.png" alt="cafef" />
                                             </div>
                                             <div class="item__heading lcl lcl-2">25 FIT - mô hình kinh doanh hiếm hoi tăng trưởng trong đại dịch
@@ -200,7 +199,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="news__item">
-                                            <div class="item__image">
+                                            <div class="item__image logo-news">
                                                 <img src="/theme_25fit/static/src/images/vnexpress.png" alt="vnexpress" />
                                             </div>
                                             <div class="item__heading lcl lcl-2">25 FIT áp dụng mô hình tập gym bằng công nghệ
@@ -226,7 +225,7 @@
                                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus aliquet lectus in fermentum scelerisque consectetur ac vitae. At lectus massa elementum amet fermentum. Ac imperdiet magna id iaculis odio lacus, ut interdum. Eget diam sit in quis tellus.</p>
                                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus aliquet lectus in fermentum scelerisque consectetur ac vitae. At lectus massa elementum amet fermentum. Ac imperdiet magna id iaculis odio lacus, ut interdum. Eget diam sit in quis tellus.</p>
                                         <div class="actions">
-                                            <a href="#" class="btn btn-primary">Join our franchise system</a>
+                                            <a href="https://dangky.25fit.net/25fit-nhuong-quyen-thuong-hieu" target="_blank" class="btn btn-primary">Join our franchise system</a>
                                         </div>
                                     </div>
                                 </div>

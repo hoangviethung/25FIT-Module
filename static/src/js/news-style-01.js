@@ -1,7 +1,7 @@
 odoo.define("theme_25fit.news_style_01", function (require) {
     ("use strict");
     const publicWidget = require("web.public.widget");
-    publicWidget.registry.TestimonialSection = publicWidget.Widget.extend({
+    publicWidget.registry.NewsStyle01Section = publicWidget.Widget.extend({
         selector: ".news-style-01",
         xmlDependencies: [],
         events: {},
@@ -15,6 +15,10 @@ odoo.define("theme_25fit.news_style_01", function (require) {
                 pagination: {
                     el: ".news-style-01-swiper .swiper-pagination-dots",
                     clickable: true,
+                },
+                navigation: {
+                    nextEl: ".news-style-01-swiper .swiper-button-next",
+                    prevEl: ".news-style-01-swiper .swiper-button-prev",
                 },
                 autoplay: {
                     delay: 5000,

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="demo_about_ems" name="Demo About EMS">
+        <t t-call="website.layout">
+            <div id="layout-about-ems-js">
+                <div id="wrap">
+                    <t t-raw="0"/>
+                    <section class="hero-banner-style-02">
+                        <video class="banner-video" autoplay="autoplay" loop="loop" width="100%" height="100%" muted="muted">
+                            <source src="/theme_25fit/static/src/videos/demo-01.mp4" type="video/mp4" />
+                        </video>
+                        <div class="container h-100">
+                            <div class="content-wrapper">
+                                <h2>VỀ CÔNG NGHỆ EMS</h2>
+                                <p>Aliqua nostrud eiusmod dolore proident dolore quis labore sint aliquip. Aliquip irure et incididunt adipisicing sit excepteur non laborum. Magna sit nisi enim dolore anim nulla duis incididunt labore consequat sit. Laboris consequat exercitation ad cupidatat eu nostrud veniam. Minim officia reprehenderit eu anim amet velit eiusmod labore id.</p>
+                                <div class="content__action">
+                                    <a class="btn btn btn-outline-light btn-lg" href="#">ĐĂNG KÝ TẬP THỬ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content-and-image-style-01 mt-0">
+                        <div class="container">
+                            <div class="row align-items-center gx-48">
+                                <div class="col-md-5 images-wrapper">
+                                    <div class="image-style-01-swiper swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="image">
+                                                    <img src="/theme_25fit/static/src/images/studio-ems-training-25fit.png" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image">
+                                                    <img src="/theme_25fit/static/src/images/studio-ems-training-25fit.png" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image">
+                                                    <img src="/theme_25fit/static/src/images/studio-ems-training-25fit.png" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination swiper-pagination-dots"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 contents-wrapper">
+                                    <div class="title-section-default">
+                                        <div class="sub-heading">ABOUT ESM Training</div>
+                                        <h3 class="heading">What is EMS Training?</h3>
+                                    </div>
+                                    <p class="desc">EMS stands for Electrical Muscle Stimulation and has been used for decades in physiotherapy. This intensive whole body training is now experiencing a comeback as fitness revolution of the future, simply because with EMS training sensational success can be achieved in no time.</p>
+                                    <p class="desc">Therefore, this technology has also been used in training by professional athletes.</p>
+                                    <p class="desc">Minimal time required. Maximum result. As simple as that!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="news-style-01">
+                        <div class="container">
+                            <div class="title-section-default title-section-default--center">
+                                <div class="sub-heading">Success Story</div>
+                                <h3 class="heading">Câu chuyện thành công của hội viên</h3>
+                            </div>
+                            <div class="swiper news-style-01-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="https://kienthuc.25fit.net/blog/chang-hoi-vien-giam-9kg-thanh-cong-du-ban-ron" target="_blank" class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/success-story-01.jpeg" alt="success-story-01" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">GIẢNG VIÊN TRẺ GIẢM CÂN THÀNH CÔNG 9KG</div>
+                                            <div class="item__desc lcl lcl-4">Với lịch trình bận rộn khi vừa công tác trên công ty nhưng vẫn đi dạy buổi tối, mặc dù quỹ thời gian rảnh ít ỏi khoảng 1 tiếng/ngày - anh Tuấn Anh - một giảng viên chuyên ngành thiết kế đã giảm từ 80 đến 71 kg. Cùng 25 FIT xem ngay câu chuyện đầy cảm hứng của anh nhé.</div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://kienthuc.25fit.net/blog/tap-ems-co-tang-co-khong" target="_blank" class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/success-story-02.jpeg" alt="success-story-02" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">TĂNG CƠ RÕ RỆT SAU KHI TẬP EMS TRAINING</div>
+                                            <div class="item__desc lcl lcl-4">Từng tìm đến các phòng gym truyền thống tập luyện để giảm cân nhưng kết quả không như ý. Vì thế, khi biết đến phương pháp tập luyện công nghệ EMS, anh Quốc này đã quyết định đăng ký tập luyện và đạt được hiệu quả không ngờ.</div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://kienthuc.25fit.net/blog/cau-chuyen-truyen-cam-hung-nu-hoi-vien-giam-thanh-cong-10kg" target="_blank" class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/success-story-03.jpeg" alt="success-story-03" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">NỖ LỰC PHI THƯỜNG CỦA NỮ HỘI VIÊN TỪNG "BẤT LỰC" VÌ SỨC KHỎE</div>
+                                            <div class="item__desc lcl lcl-4">Thời điểm năm 2018-2019 là những năm đen tối của cuộc đời chị. Với sức khỏe vô cùng tồi tệ, phải truyền dịch hàng tháng, tiêm kháng thể để không phải ảnh hưởng công việc, cơ thể luôn trong trạng thái mệt mỏi, rã rời.
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://kienthuc.25fit.net/blog/san-co-tao-mui-cung-ems-training-25fit" target="_blank" class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/success-story-04.jpeg" alt="success-story-04" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">SĂN CƠ, TẠO MÚI CÙNG CÔNG NGHỆ EMS TRAINING 
+                                            </div>
+                                            <div class="item__desc lcl lcl-4">Chia sẻ của anh Trung: "“Sau khi biết tới 25 FIT là mình u mê rồi ghiền tập luôn tới giờ. Vì sau khi tập thì ngực và bụng của mình nét hơn, có múi luôn ❤️ Các nhóm cơ khác cũng phát triển đều, kèm theo một sức khỏe ổn áp hơn so với trước đây, khi mình vẫn mang một chiếc bụng mỡ phì nhiêu”.
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="benefits-of-esm-content-style-01">
+                        <div class="container">
+                            <div class="title-section-default">
+                                <div class="sub-heading">Benefits</div>
+                                <h3 class="heading">Lợi Ích Của Tập Luyện EMS Training</h3>
+                            </div>
+                            <div class="benefits-of-esm-content-style-01-swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="content__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/benefit-01.jpeg" alt="benefit-01" />
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="item__heading">Compensation of muscular imbalances
+                                                </div>
+                                                <div class="item__desc">EMS allows targeted activation of muscle groups. This is especially important when compensating for muscular differences. For example, sitting for a long time at the desk leads to a shortening of the chest muscles with the simultaneous weakening of the shoulder and back muscles.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/benefit-02.jpeg" alt="benefit-02" />
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="item__heading">Compensation of muscular imbalances
+                                                </div>
+                                                <div class="item__desc">EMS allows targeted activation of muscle groups. This is especially important when compensating for muscular differences. For example, sitting for a long time at the desk leads to a shortening of the chest muscles with the simultaneous weakening of the shoulder and back muscles.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/benefit-03.jpeg" alt="benefit-03" />
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="item__heading">Compensation of muscular imbalances
+                                                </div>
+                                                <div class="item__desc">EMS allows targeted activation of muscle groups. This is especially important when compensating for muscular differences. For example, sitting for a long time at the desk leads to a shortening of the chest muscles with the simultaneous weakening of the shoulder and back muscles.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/benefit-04.jpeg" alt="benefit-04" />
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="item__heading">Compensation of muscular imbalances
+                                                </div>
+                                                <div class="item__desc">EMS allows targeted activation of muscle groups. This is especially important when compensating for muscular differences. For example, sitting for a long time at the desk leads to a shortening of the chest muscles with the simultaneous weakening of the shoulder and back muscles.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/benefit-05.jpeg" alt="benefit-05" />
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="item__heading">Compensation of muscular imbalances
+                                                </div>
+                                                <div class="item__desc">EMS allows targeted activation of muscle groups. This is especially important when compensating for muscular differences. For example, sitting for a long time at the desk leads to a shortening of the chest muscles with the simultaneous weakening of the shoulder and back muscles.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/benefit-06.jpeg" alt="benefit-06" />
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="item__heading">Compensation of muscular imbalances
+                                                </div>
+                                                <div class="item__desc">EMS allows targeted activation of muscle groups. This is especially important when compensating for muscular differences. For example, sitting for a long time at the desk leads to a shortening of the chest muscles with the simultaneous weakening of the shoulder and back muscles.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/benefit-06.jpeg" alt="benefit-06" />
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="item__heading">Compensation of muscular imbalances
+                                                </div>
+                                                <div class="item__desc">EMS allows targeted activation of muscle groups. This is especially important when compensating for muscular differences. For example, sitting for a long time at the desk leads to a shortening of the chest muscles with the simultaneous weakening of the shoulder and back muscles.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/benefit-07.jpeg" alt="benefit-07" />
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="item__heading">Compensation of muscular imbalances
+                                                </div>
+                                                <div class="item__desc">EMS allows targeted activation of muscle groups. This is especially important when compensating for muscular differences. For example, sitting for a long time at the desk leads to a shortening of the chest muscles with the simultaneous weakening of the shoulder and back muscles.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/benefit-08.jpeg" alt="benefit-08" />
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="item__heading">Compensation of muscular imbalances
+                                                </div>
+                                                <div class="item__desc">EMS allows targeted activation of muscle groups. This is especially important when compensating for muscular differences. For example, sitting for a long time at the desk leads to a shortening of the chest muscles with the simultaneous weakening of the shoulder and back muscles.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination swiper-pagination-dots"></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="call-to-action-02" style="background-image: url('/theme_25fit/static/src/images/bg-call-to-action-02.png')">
+                        <div class="content-wrapper container">
+                            <h2>REGISTER NOW TO RECEIVE
+                                <br/>
+                                A FREE TRAINING FOR YOUR OWN
+                            </h2>
+                            <a class="btn btn-primary" href="https://dangky.25fit.net/dang-ky-tap-thu-25fit" target="_blank">Book a Trial EMS session</a>
+                        </div>
+                    </section>
+                    <!-- Droppable-area shared across all 25fit pages -->
+                    <t t-set="oe_structure_25fit_footer_description">Visible in all 25fit pages</t>
+                    <div class="oe_structure oe_empty" id="oe_structure_25fit_footer" t-att-data-editor-sub-message="oe_structure_25fit_footer_description"/>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>
