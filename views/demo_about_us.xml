@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="demo_about_us" name="Demo About Page">
+        <t t-call="website.layout">
+            <div id="layout-about-us-js">
+                <div id="wrap">
+                    <t t-raw="0"/>
+                    <section class="hero-banner-style-02">
+                        <video class="banner-video" autoplay="autoplay" loop="loop" width="100%" height="100%" muted="muted">
+                            <source src="/theme_25fit/static/src/videos/demo-01.mp4" type="video/mp4" />
+                        </video>
+                        <div class="container h-100">
+                            <div class="content-wrapper">
+                                <h2>VỀ CHÚNG TÔI</h2>
+                                <p></p>
+                                <p>Aliqua nostrud eiusmod dolore proident dolore quis labore sint aliquip. Aliquip irure et incididunt adipisicing sit excepteur non laborum. Magna sit nisi enim dolore anim nulla duis incididunt labore consequat sit. Laboris consequat exercitation ad cupidatat eu nostrud veniam. Minim officia reprehenderit eu anim amet velit eiusmod labore id.</p>
+                                <div class="content__action">
+                                    <a class="btn btn btn-outline-light btn-lg" href="#">About EMS</a>
+                                    <a class="btn btn btn-outline-light btn-lg" href="#">Franchise</a>
+                                    <a class="btn btn btn-outline-light btn-lg" href="#">Studios</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content-and-image-style-01 mt-0">
+                        <div class="container">
+                            <div class="row align-items-center gx-48">
+                                <div class="col-md-5 images-wrapper">
+                                    <div class="image-style-01-swiper swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="image">
+                                                    <img src="/theme_25fit/static/src/images/studio-ems-training-25fit.png" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image">
+                                                    <img src="/theme_25fit/static/src/images/studio-ems-training-25fit.png" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="image">
+                                                    <img src="/theme_25fit/static/src/images/studio-ems-training-25fit.png" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination swiper-pagination-dots"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 contents-wrapper">
+                                    <div class="title-section-default">
+                                        <div class="sub-heading">WHO WE ARE</div>
+                                        <h3 class="heading">About 25FIT</h3>
+                                    </div>
+                                    <p class="desc">Thành lập từ năm 2019, 25 FIT là hệ thống phòng tập công nghệ EMS chuyên nghiệp nhất, dẫn đầu tại thị trường Việt Nam. Với sự tăng trưởng không ngừng, sau hơn 2 năm hoạt động, 25 FIT đã có 40 chi nhánh trên toàn quốc, tập trung tại các thành phố Hà Nội, TPHCM và Bình Dương.</p>
+                                    <p class="desc">Chúng tôi mong muốn chia sẻ cơ hội vàng hợp tác kinh doanh với các nhà đầu tư thông qua mô hình Nhượng Quyền Thương Hiệu. Từng bước nhân rộng hệ thống phòng tập công nghệ EMS, đưa 25 FIT là thương hiệu tiên phong tại khu vực châu Á.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="testimonial-style-01">
+                        <div class="container">
+                            <div class="title-section-default title-section-default--center">
+                                <div class="sub-heading">Testimonial</div>
+                                <h3 class="heading">CEO Message</h3>
+                            </div>
+                            <div class="swiper testimonial-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="content-wrapper">
+                                            <div class="image">
+                                                <img src="/theme_25fit/static/src/images/longpham-ceo.jpeg" alt="long-pham" />
+                                            </div>
+                                            <div class="content">
+                                                <div class="content__desc">Nền tảng công nghệ tiên tiến, phương pháp tập luyện hiệu quả, cơ cấu nhân sự tinh gọn, yêu cầu không gian phòng tập nhỏ (60m2) là những yếu tố mang đến sự thành công cho mô hình và đối tác đầu tư nhượng quyền của 25 FIT.</div>
+                                                <div class="content__name">
+                                                    <span>Mr. Long Phạm</span> -
+                                                    <span>CEO &amp; Co Founder 25 FIT</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-wrapper">
+                                            <div class="image">
+                                                <img src="/theme_25fit/static/src/images/hunghoang-cofounder.jpeg" alt="hung-hoang" />
+                                            </div>
+                                            <div class="content">
+                                                <div class="content__desc">Nền tảng công nghệ tiên tiến, phương pháp tập luyện hiệu quả, cơ cấu nhân sự tinh gọn, yêu cầu không gian phòng tập nhỏ (60m2) là những yếu tố mang đến sự thành công cho mô hình và đối tác đầu tư nhượng quyền của 25 FIT.</div>
+                                                <div class="content__name">
+                                                    <span>Mr. Hưng Hoàng</span> -
+                                                    <span>CEO &amp; Co Founder 25 FIT</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="content-wrapper">
+                                            <div class="image">
+                                                <img src="/theme_25fit/static/src/images/phivan-cofounder.jpeg" alt="phi-van" />
+                                            </div>
+                                            <div class="content">
+                                                <div class="content__desc">Với một dự án kinh doanh được xây dựng bài bản, đội ngũ tư vấn giàu kinh nghiệm và hệ thống quản lý được số hoá như 25 FIT, thì 2 tỷ là một chi phí cực kì thấp, điểm hoà vốn nhanh và chắc chắn là mang lại lợi nhuận cao.</div>
+                                                <div class="content__name">
+                                                    <span>Ms. Nguyễn Phi Vân</span> - 
+                                                    <span>Co Founder 25 FIT</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination swiper-pagination-dots"></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content-and-image-style-01 has-background-image overlay-blue mt-0" style="background-image: url('/theme_25fit/static/src/images/bg-call-to-action-01.png')">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-8 contents-wrapper">
+                                    <div class="max-width-604">
+                                        <h4 class="title">25 FIT - The first EMS training studio in Vietnam</h4>
+                                        <p class="desc">As the first and leader in the EMS fitness sector in Asia, we provide time-saving, convenient, efficient alternative training for not only non-gym goers but also people who cannot commit to traditional gym training. We are especially popular with executives and white-collars who lead a busy and dynamic lifestyle.</p>
+                                        <p class="desc">You will be amazed at the positive result with as little as only 25 minutes per session, twice per week.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="news-style-01">
+                        <div class="container">
+                            <div class="title-section-default title-section-default--center">
+                                <div class="sub-heading">press say about</div>
+                                <h3 class="heading">What the press say about 25FIT?</h3>
+                            </div>
+                            <div class="swiper news-style-01-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/fbnc.png" alt="fbnc" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">Xu hướng nhượng quyền thương hiệu trong ngành thể hình</div>
+                                            <div class="item__desc lcl lcl-4">Nhắc đến Franchise Leasing (nhượng quyền thương hiệu), thì người ta hay nghĩ đến lĩnh vực F&amp;sB. Tuy nhiên thì gần đây, Franchise Leasing đã nổi lên với hàng loạt các ngành dịch vụ khác nhau như một xu hướng tất yếu,trong đó thể hình là một trong các ngành dẫn đầu.</div>
+                                            <div class="item__actions">
+                                                <a href='https://www.youtube.com/watch?v=d-8n5YBhf3M&amp;ab_channel=FBNCVietnam' class="btn btn-sm btn-outline-dark" target="_blank">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/theleader.png" alt="theleader" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">Gym công nghệ bứt phát với mô hình nhượng quyền</div>
+                                            <div class="item__desc lcl lcl-4">Với đà tăng trưởng hiện tại, trong năm 2021, số lượng phòng tập mang thương hiệu 25FIT dự kiến sẽ đạt tới con số 100, và nhanh chóng cán mốc 250 phòng tập vào cuối năm 2022</div>
+                                            <div class="item__actions">
+                                                <a href="https://theleader.vn/ceo-25-fit-gym-cong-nghe-but-pha-voi-mo-hinh-nhuong-quyen-m1611644108834.htm" class="btn btn-sm btn-outline-dark" target="_blank">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/cafebiz.png" alt="cafebiz" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">Ra đời trúng Covid, một startup chuỗi gym công nghệ mở liền tù tì 14 phòng tập: Mời gọi đầu tư 2 tỷ đồng/phòng tập, hứa sau 3 năm lãi 14 tỷ đồng!</div>
+                                            <div class="item__desc lcl lcl-4">Tốc lực mở phòng tập của 25 FIT đang khiến cả giới khởi nghiệp bất ngờ. Tuy nhiên, với mô hình kinh doanh không quá khó để copy, startup này buộc phải "điên cuồng mở rộng thị trường hay là chết", nhất định phải tranh thủ việc các thương hiệu nước ngoài chưa thể vào Việt Nam và chưa có đối thủ trong nước, bành trướng nhanh nhất có thể.
+                                            </div>
+                                            <div class="item__actions">
+                                                <a href="https://cafebiz.vn/ra-doi-trung-covid-mot-startup-chuoi-gym-cong-nghe-mo-lien-tu-ti-14-phong-tap-moi-goi-dau-tu-2-ty-dong-phong-tap-hua-sau-3-nam-lai-14-ty-dong-2020112323392258.chn" class="btn btn-sm btn-outline-dark" target="_blank">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/kinhtesaigon.png" alt="cafebiz" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">Bốn doanh nghiệp cung cấp chữ ký số bị buộc tạm ngừng phát triển thuê bao mới
+                                            </div>
+                                            <div class="item__desc lcl lcl-4">(KTSG Online) - Thanh tra Bộ Thông tin và Truyền thông vừa ban hành các quyết định xử phạt vi phạm hành chính đối với 6 doanh nghiệp cung cấp dịch vụ chứng thực chữ ký số công cộng. Trong số này, có 4 doanh nghiệp bị buộc phải tạm dừng việc phát triển thuê bao mới từ 1 đến 2 tháng.</div>
+                                            <div class="item__actions">
+                                                <a href="https://thesaigontimes.vn/bon-doanh-nghiep-cung-cap-chu-ky-so-bi-buoc-tam-ngung-phat-trien-thue-bao-moi/" class="btn btn-sm btn-outline-dark" target="_blank">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/cafef.png" alt="cafef" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">25 FIT - mô hình kinh doanh hiếm hoi tăng trưởng trong đại dịch
+                                            </div>
+                                            <div class="item__desc lcl lcl-4">Trong khi các mô hình kinh doanh gym truyền thống phải dừng hẳn hoạt động trong các đợt cách ly phong tỏa thì 25 FIT vẫn duy trì kinh doanh, thậm chí là mở thêm hàng loạt trung tâm.
+                                            </div>
+                                            <div class="item__actions">
+                                                <a href="https://cafef.vn/25-fit-mo-hinh-kinh-doanh-hiem-hoi-tang-truong-trong-dai-dich-2021070716551892.chn" class="btn btn-sm btn-outline-dark" target="_blank">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="news__item">
+                                            <div class="item__image">
+                                                <img src="/theme_25fit/static/src/images/vnexpress.png" alt="vnexpress" />
+                                            </div>
+                                            <div class="item__heading lcl lcl-2">25 FIT áp dụng mô hình tập gym bằng công nghệ
+                                            </div>
+                                            <div class="item__desc lcl lcl-4">Theo đại diện 25 FIT, nhu cầu tập luyện để làm đẹp hình thể và nâng cao sức khoẻ nở rộ trong vài năm gần đây, nhưng phần lớn số người đi tập bỏ dở giữa chừng vì nhiều lý do trong đó có hiệu quả chậm và thấp, không sắp xếp được thời gian... Nắm bắt được điều đó, đơn vị đưa ra mô hình tập luyện mới, khắc phục các nhược điểm của gym truyền thống.
+                                            </div>
+                                            <div class="item__actions">
+                                                <a href="https://cafef.vn/25-fit-mo-hinh-kinh-doanh-hiem-hoi-tang-truong-trong-dai-dich-2021070716551892.chn" class="btn btn-sm btn-outline-dark" target="_blank">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination swiper-pagination-dots"></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content-and-image-style-01 has-background-image mt-0" style="background-image: url('/theme_25fit/static/src/images/bg-call-to-action-01.png')">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-8 contents-wrapper">
+                                    <div class="max-width-604">
+                                        <h4 class="title">25FIT Franchise System</h4>
+                                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus aliquet lectus in fermentum scelerisque consectetur ac vitae. At lectus massa elementum amet fermentum. Ac imperdiet magna id iaculis odio lacus, ut interdum. Eget diam sit in quis tellus.</p>
+                                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus aliquet lectus in fermentum scelerisque consectetur ac vitae. At lectus massa elementum amet fermentum. Ac imperdiet magna id iaculis odio lacus, ut interdum. Eget diam sit in quis tellus.</p>
+                                        <div class="actions">
+                                            <a href="#" class="btn btn-primary">Join our franchise system</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Droppable-area shared across all 25fit pages -->
+                    <t t-set="oe_structure_25fit_footer_description">Visible in all 25fit pages</t>
+                    <div class="oe_structure oe_empty" id="oe_structure_25fit_footer" t-att-data-editor-sub-message="oe_structure_25fit_footer_description"/>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

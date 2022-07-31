@@ -31,6 +31,7 @@ button {
 .o_header_default_affixed {
     .navbar {
         padding: 0.75rem 1rem;
+        transition: 0.3s all ease-in-out;
         @media (max-width: 992.98px) {
             .navbar-collapse {
                 padding-top: 0.5rem;
@@ -82,9 +83,6 @@ button {
             left: 0;
             right: 0;
             bottom: auto;
-            .navbar {
-                padding: 1.875rem 1rem;
-            }
             .navbar-light {
                 background-color: transparent;
             }
@@ -118,8 +116,10 @@ button {
             color: map-get($map: $custom-theme-colors, $key: "primary");
         }
         .navbar-brand {
-            &.logo img {
-                filter: brightness(0) invert(1);
+            &.logo {
+                img {
+                    filter: brightness(0) invert(1);
+                }
             }
         }
         .js_language_selector {
@@ -135,6 +135,11 @@ button {
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
         }
+    }
+}
+.o_footer_logo {
+    img {
+        filter: brightness(0) invert(1);
     }
 }
 
@@ -237,4 +242,31 @@ button {
 .gx-80 > [class*="col-"] {
     padding-right: 40px;
     padding-left: 40px;
+}
+
+.lcl {
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+
+    &-1 {
+        -webkit-line-clamp: 1;
+    }
+
+    &-2 {
+        -webkit-line-clamp: 2;
+    }
+
+    &-3 {
+        -webkit-line-clamp: 3;
+    }
+
+    &-4 {
+        -webkit-line-clamp: 4;
+    }
+
+    &-5 {
+        -webkit-line-clamp: 5;
+    }
 }

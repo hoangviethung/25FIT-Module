@@ -22,6 +22,7 @@
         # Demo View
         'views/website_templates.xml',
         'views/demo_homepage.xml',
+        'views/demo_about_us.xml',
         'views/demo_ems_training.xml',
         'views/demo_franchise.xml',
         'views/demo_renew_plan_step_1.xml',
@@ -54,6 +55,7 @@
             "/theme_25fit/static/src/js/testimonial-style-01.js",
             "/theme_25fit/static/src/js/gallery-style-01.js",
             "/theme_25fit/static/src/js/content-and-image-style-01.js",
+            "/theme_25fit/static/src/js/news-style-01.js",
         ],
         'web._assets_primary_variables': [
             "/theme_25fit/static/src/scss/primary_variables.scss",

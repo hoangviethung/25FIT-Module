@@ -1883,3 +1883,61 @@
         padding: 40px 0;
     }
 }
+
+.news-style-01 {
+    padding: 80px 0;
+    .title-section-default {
+        margin-bottom: 56px;
+        @media (max-width: 767.98px) {
+            margin-bottom: 32px;
+        }
+    }
+    .news__item {
+        .item__image {
+            margin-bottom: 16px;
+            img {
+                width: auto;
+                height: 72px;
+            }
+        }
+        .item__heading {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        .item__desc {
+            color: map-get($map: $custom-theme-colors, $key: "neutral-grey-1");
+            font-weight: 400;
+        }
+    }
+    .item__actions {
+        margin-top: 16px;
+    }
+    .news-style-01-swiper {
+        .swiper-pagination-bullet {
+            background: map-get($map: $custom-theme-colors, $key: "primary");
+            transition: 0.3s all ease-in-out;
+        }
+        .swiper-pagination-bullet-active {
+            width: 24px;
+            border-radius: 8px;
+        }
+        .swiper-pagination-fraction,
+        .swiper-pagination-custom,
+        .swiper-horizontal > .swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal {
+            position: static;
+            margin-top: 32px;
+            @media (max-width: 767.98px) {
+                margin-top: 24px;
+                text-align: left;
+            }
+            @media (max-width: 575.98px) {
+                margin-top: 16px;
+            }
+        }
+    }
+    @media (max-width: 575.98px) {
+        padding: 40px 0;
+    }
+}
