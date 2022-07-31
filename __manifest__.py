@@ -32,6 +32,7 @@
         'views/demo_confirm_booking.xml',
         'views/demo_booking_details.xml',
         'views/demo_your_booking_information.xml',
+        'views/demo_about_us.xml',
     ],
     'qweb': [],
     'assets':{
