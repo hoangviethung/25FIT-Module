@@ -19,21 +19,14 @@
         # Snippets
         'views/snippets/s_antiseptic_model.xml',
         'views/snippets/snippets.xml',
-        # Demo View
+        # Odoo
         'views/website_templates.xml',
-        'views/demo_homepage.xml',
-        'views/demo_about_us.xml',
-        'views/demo_about_ems.xml',
-        'views/demo_ems_training.xml',
-        'views/demo_franchise.xml',
-        'views/demo_renew_plan_step_1.xml',
-        'views/demo_renew_plan_step_2.xml',
-        'views/demo_schedule_booking.xml',
-        'views/demo_booking_time.xml',
-        'views/demo_confirm_booking.xml',
-        'views/demo_booking_details.xml',
-        'views/demo_your_booking_information.xml',
-        'views/demo_about_us.xml',
+        # View
+        'views/home.xml',
+        'views/about_us.xml',
+        'views/ems_training_and_success_story.xml',
+        'views/recurring_term_and_condition.xml',
+        'views/franchise.xml',
     ],
     'qweb': [],
     'assets':{
@@ -50,7 +43,6 @@
             "/theme_25fit/static/src/scss/user_custom_rules.scss",
             "/theme_25fit/static/src/scss/website.ui.scss",
             # Theme JS
-            "/theme_25fit/static/src/js/checkout.js",
             "/theme_25fit/static/src/js/menu.js",
             "/theme_25fit/static/src/js/home.js",
             "/theme_25fit/static/src/js/fullpage-content-style-01.js",

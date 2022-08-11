@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="demo_about_ems" name="Demo About EMS">
+    <template id="ems_training_and_success_story" name="Ems Training And Success Story">
         <t t-call="website.layout">
-            <div id="layout-about-ems-js">
+            <div id="layout-ems-training-and-success-story-js">
                 <div id="wrap">
                     <t t-raw="0"/>
                     <section class="hero-banner-style-02">

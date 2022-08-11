@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="demo_franchise" name="Demo Franchise">
+    <template id="franchise" name="Franchise">
         <t t-call="website.layout">
             <div id="layout-franchise-js">
                 <div id="wrap">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="demo_about_us" name="Demo About Page">
+    <template id="about_us" name="About Page">
         <t t-call="website.layout">
             <div id="layout-about-us-js">
                 <div id="wrap">
@@ -14,8 +14,8 @@
                                 <h2>VỀ CHÚNG TÔI</h2>
                                 <p>Aliqua nostrud eiusmod dolore proident dolore quis labore sint aliquip. Aliquip irure et incididunt adipisicing sit excepteur non laborum. Magna sit nisi enim dolore anim nulla duis incididunt labore consequat sit. Laboris consequat exercitation ad cupidatat eu nostrud veniam. Minim officia reprehenderit eu anim amet velit eiusmod labore id.</p>
                                 <div class="content__action">
-                                    <a class="btn btn btn-outline-light btn-lg" href="/demo-about-ems">About EMS</a>
-                                    <a class="btn btn btn-outline-light btn-lg" href="/demo-franchise">Franchise</a>
+                                    <a class="btn btn btn-outline-light btn-lg" href="/about-ems">About EMS</a>
+                                    <a class="btn btn btn-outline-light btn-lg" href="/franchise">Franchise</a>
                                     <a class="btn btn btn-outline-light btn-lg" href="https://phongtap.25fit.net/vi/studio-25fit" target="_blank">Studios</a>
                                 </div>
                             </div>

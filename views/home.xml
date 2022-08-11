@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="demo_homepage" name="Demo Home Page">
+    <template id="home" name="Home Page">
         <t t-call="website.layout">
             <div id="layout-home-js">
                 <div id="wrap">
