@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <odoo>
-    <!-- Header templates -->
     <template id="theme_25fit_navbar" inherit_id="website.navbar" name="Theme 25FIT Navbar">
         <xpath expr="//nav" position="replace">
             <nav data-name="Navbar" t-attf-class="navbar navbar-light #{_navbar_expand_class} o_colored_level o_cc #{_navbar_classes}">
@@ -8,12 +7,13 @@
             </nav>
         </xpath>
     </template>
+
     <template id="theme_25fit_header_default_fixed" inherit_id="website.layout" name="Theme 25FIT Header Default Fixed">
         <xpath expr="//header" position="attributes">
             <attribute name="t-attf-class" add="o_header_default_affixed" separator=" "/>
         </xpath>
     </template>
-    <!-- "Default" template -->
+
     <template id="theme_25fit_header_default_header_default" inherit_id="website.template_header_default" name="Theme 25FIT Header Default" active="True">
         <xpath expr="//t[@t-call='website.navbar']" position="replace">
             <t t-call="website.navbar">
@@ -61,6 +61,18 @@
                     </t>
                 </div>
             </t>
+        </xpath>
+    </template>
+
+    <template id="theme_25fit_header_call_to_action" inherit_id="website.header_call_to_action" name="Header Call to Action" active="True">
+        <xpath expr="." position="replace">
+            <div t-attf-class="oe_structure oe_structure_solo #{_div_classes}">
+                <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
+                    <div class="container">
+                        <a href="/web/login" class="btn-sm btn-primary btn_cta">Booking</a>
+                    </div>
+                </section>
+            </div>
         </xpath>
     </template>
 </odoo>

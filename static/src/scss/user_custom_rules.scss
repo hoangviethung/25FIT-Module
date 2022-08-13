@@ -38,6 +38,12 @@ button {
             }
         }
     }
+    .btn_cta {
+        color: #ffffff !important;
+        &:hover {
+            text-decoration: none;
+        }
+    }
     .js_usermenu {
         @media (max-width: 992.98px) {
             margin: 0 0 0.5rem 0;
@@ -137,6 +143,7 @@ button {
         }
     }
 }
+
 .o_footer_logo {
     img {
         filter: brightness(0) invert(1);
@@ -223,6 +230,17 @@ button {
         ~ span {
             margin-left: 2px;
         }
+    }
+}
+
+.btn-fill-primary,
+.btn-primary {
+    border-width: 0px;
+    background: linear-gradient(54.72deg, #ff3d86 0.03%, #ff91bb 100%);
+    &:hover {
+        background: map-get($map: $custom-theme-colors, $key: "primary");
+        filter: drop-shadow(0px 0px 1px rgba(255, 61, 134, 0.5))
+            drop-shadow(0px 26px 32px rgba(255, 61, 134, 0.2));
     }
 }
 

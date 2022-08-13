@@ -9,122 +9,120 @@
                     <t t-set="no_footer" t-value="True"/>
                     <div class="recurring-term-and-condition">
                         <div class="container">
-                            <div class="content">
-                                <div class="mb-4">
-                                    <h1>Terms and Conditions</h1>
-                                    <h2>NỘI DUNG VÀ ĐIỀU KIỆN CHO HÌNH THỨC THANH TOÁN ĐỊNH KỲ</h2>
-                                </div>
-                                <div class="">
-                                    <h3>A. ĐỊNH NGHĨA VÀ ĐIỀU KIỆN CHO HÌNH THỨC THANH TOÁN ĐỊNH KỲ</h3>
-                                    <ul>
-                                        <li>
-                                            <p>
-                                                <b>Gói dịch vụ tái ký là:</b>
+                            <div class="mb-4">
+                                <h1>Terms and Conditions</h1>
+                                <h2>NỘI DUNG VÀ ĐIỀU KIỆN CHO HÌNH THỨC THANH TOÁN ĐỊNH KỲ</h2>
+                            </div>
+                            <div>
+                                <h3>A. ĐỊNH NGHĨA VÀ ĐIỀU KIỆN CHO HÌNH THỨC THANH TOÁN ĐỊNH KỲ</h3>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <b>Gói dịch vụ tái ký là:</b>
                                             Gói dịch vụ khi khách hàng thực hiện mua thêm (các) Gói dịch vụ khác sau khi mua Gói dịch vụ đầu tiên.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <b>Điều kiện Gói dịch vụ tái ký:</b> Trong quá trình tập luyện và trong 12 tháng kể từ ngày Gói dịch vụ hết hạn, không áp dụng cho khách hàng mua Gói dịch vụ thử 1 tháng.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <b>Thanh toán định kỳ là:</b> Hình thức thanh toán cho phép Hội viên thanh toán định kỳ theo tuần tương ứng với Gói dịch vụ mà Hội viên đã mua tại Hợp đồng hội viên.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <b>Điều kiện áp dụng hình thức thanh toán định kỳ:</b> Hình thức thanh toán định kỳ được áp dụng cho một số Gói dịch vụ cụ thể mà 25 FIT cung cấp cho Hội viên.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>Công ty sẽ tự động thu khoản phí đã thống nhất với Hội viên theo định kỳ hàng tuần (sau đây được định nghĩa là kỳ thanh toán).</p>
-                                            <ul>
-                                                <li>
-                                                    <p>Kỳ thanh toán đầu tiên: Hệ thống sẽ tự động ghi nhận là ngày khách hàng xác nhận đăng ký gói tái ký (t).</p>
-                                                </li>
-                                                <li>
-                                                    <p>Kỳ thanh toán tiếp theo:</p>
-                                                    <ul>
-                                                        <li>
-                                                            <p>
-                                                                <i>Trường hợp ngày hết hạn Gói dịch vụ liền kề trước đó (n) dưới 7 ngày: Kỳ thanh toán tiếp theo là t+7.</i>
-                                                            </p>
-                                                        </li>
-                                                        <li>
-                                                            <p>
-                                                                <i>Trường hợp ngày hết hạn Gói dịch vụ liền kề trước đó (n) trên 7 ngày: Kỳ thanh toán tiếp theo là n.</i>
-                                                            </p>
-                                                        </li>
-                                                        <li>
-                                                            <p>
-                                                                <i>Mỗi kỳ thanh toán sẽ cách nhau 7 ngày (1 tuần).</i>
-                                                            </p>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <p>Nếu việc thanh toán định kỳ tự động thất bại, Hội viên sẽ được thông báo qua email hoặc điện thoại. Hội viên có nghĩa vụ hoàn tất phần thanh toán trong vòng 5 ngày làm việc kể từ khi nhận được thông báo.</p>
-                                        </li>
-                                        <li>
-                                            <p>Nếu quá 01 kỳ thanh toán: Công ty sẽ tạm ngưng cung cấp dịch vụ cho Hội viên cho tới khi đóng đủ các khoản phí.</p>
-                                        </li>
-                                        <li>
-                                            <p>Nếu quá 02 kỳ thanh toán: Hợp đồng tự động chấm dứt mà Công ty sẽ không phải hoàn trả lại bất kỳ một khoản chi phí nào liên quan.</p>
-                                        </li>
-                                        <li>
-                                            <p>Thay đổi thông tin thẻ thanh toán định kỳ. Nếu Hội viên muốn thay đổi thông tin thẻ đã đăng ký cùng 25 FIT cho hình thức thanh toán định kỳ. Hội viên cần gửi email về địa chỉ welisten@25fit.net hoặc số điện thoại 18006176 để được hỗ trợ.</p>
-                                        </li>
-                                    </ul>
-                                    <h3>B. SỐ TIỀN THANH TOÁN ĐỊNH KỲ</h3>
-                                    <ul>
-                                        <li>
-                                            <p>
-                                                <b>Số tiền thanh toán định kỳ được xác định như sau:</b>
-                                            </p>
-                                            <ul>
-                                                <li>
-                                                    <p>Tổng giá trị Gói dịch vụ đã bao gồm thuế giá trị gia tăng (GTGT) chia cho số kỳ thanh toán</p>
-                                                </li>
-                                                <li>
-                                                    <p>
-                                                        <b>Ví dụ: </b>Hội viên đã đăng ký gói dịch vụ tập luyện tái ký - 12 tháng (52 tuần) có giá trị 65,000,000 VND với hình thức thanh toán định kỳ theo tuần. Số tiền thanh toán định kỳ được xác định như sau:
-                                                    </p>
-                                                    <ul>
-                                                        <li>
-                                                            <p>65,000,000 VND: 52 = 1,250,000 VND/tuần (đã bao gồm thuế GTGT).</p>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <h3>C. HIỆU LỰC VÀ VI PHẠM PHỤ LỤC HỢP ĐỒNG</h3>
-                                    <ul>
-                                        <li>
-                                            <p>Bằng việc ký kết Phụ lục này, Công ty và Hội viên đồng ý với, và sẽ chịu sự ràng buộc pháp lý bởi, tất cả các điều khoản và điều kiện được quy định tại Phụ lục này kể từ ngày ký.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>Hội viên đồng ý và ủy quyền 25 FIT hoặc bên thứ ba do 25 FIT chỉ định thực hiện thu hộ 25 FIT.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>Phí Gói dịch vụ sẽ được thu tự động định kỳ khoản tiền tương ứng với Gói dịch vụ đã đăng ký với hình thức thanh toán định kỳ trong 52 tuần.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>Việc thu phí tự động định kỳ vẫn có hiệu lực cho đến khi Hội viên đưa ra thông báo trước ít nhất 7 ngày làm việc, để chấm dứt ủy quyền này; tuy nhiên, Việc chấm dứt ủy quyền sẽ không chấm dứt nghĩa vụ thanh toán số tiền đến hạn cho các giao dịch Hội viên đã cam kết thực hiện.</p>
-                                        </li>
-                                        <li>
-                                            <p>Hội viên cam kết thanh toán đầy đủ theo đúng thời hạn thanh toán.
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <b>Điều kiện Gói dịch vụ tái ký:</b> Trong quá trình tập luyện và trong 12 tháng kể từ ngày Gói dịch vụ hết hạn, không áp dụng cho khách hàng mua Gói dịch vụ thử 1 tháng.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <b>Thanh toán định kỳ là:</b> Hình thức thanh toán cho phép Hội viên thanh toán định kỳ theo tuần tương ứng với Gói dịch vụ mà Hội viên đã mua tại Hợp đồng hội viên.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <b>Điều kiện áp dụng hình thức thanh toán định kỳ:</b> Hình thức thanh toán định kỳ được áp dụng cho một số Gói dịch vụ cụ thể mà 25 FIT cung cấp cho Hội viên.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Công ty sẽ tự động thu khoản phí đã thống nhất với Hội viên theo định kỳ hàng tuần (sau đây được định nghĩa là kỳ thanh toán).</p>
+                                        <ul>
+                                            <li>
+                                                <p>Kỳ thanh toán đầu tiên: Hệ thống sẽ tự động ghi nhận là ngày khách hàng xác nhận đăng ký gói tái ký (t).</p>
+                                            </li>
+                                            <li>
+                                                <p>Kỳ thanh toán tiếp theo:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>
+                                                            <i>Trường hợp ngày hết hạn Gói dịch vụ liền kề trước đó (n) dưới 7 ngày: Kỳ thanh toán tiếp theo là t+7.</i>
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <p>
+                                                            <i>Trường hợp ngày hết hạn Gói dịch vụ liền kề trước đó (n) trên 7 ngày: Kỳ thanh toán tiếp theo là n.</i>
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <p>
+                                                            <i>Mỗi kỳ thanh toán sẽ cách nhau 7 ngày (1 tuần).</i>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p>Nếu việc thanh toán định kỳ tự động thất bại, Hội viên sẽ được thông báo qua email hoặc điện thoại. Hội viên có nghĩa vụ hoàn tất phần thanh toán trong vòng 5 ngày làm việc kể từ khi nhận được thông báo.</p>
+                                    </li>
+                                    <li>
+                                        <p>Nếu quá 01 kỳ thanh toán: Công ty sẽ tạm ngưng cung cấp dịch vụ cho Hội viên cho tới khi đóng đủ các khoản phí.</p>
+                                    </li>
+                                    <li>
+                                        <p>Nếu quá 02 kỳ thanh toán: Hợp đồng tự động chấm dứt mà Công ty sẽ không phải hoàn trả lại bất kỳ một khoản chi phí nào liên quan.</p>
+                                    </li>
+                                    <li>
+                                        <p>Thay đổi thông tin thẻ thanh toán định kỳ. Nếu Hội viên muốn thay đổi thông tin thẻ đã đăng ký cùng 25 FIT cho hình thức thanh toán định kỳ. Hội viên cần gửi email về địa chỉ welisten@25fit.net hoặc số điện thoại 18006176 để được hỗ trợ.</p>
+                                    </li>
+                                </ul>
+                                <h3>B. SỐ TIỀN THANH TOÁN ĐỊNH KỲ</h3>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <b>Số tiền thanh toán định kỳ được xác định như sau:</b>
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p>Tổng giá trị Gói dịch vụ đã bao gồm thuế giá trị gia tăng (GTGT) chia cho số kỳ thanh toán</p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <b>Ví dụ: </b>Hội viên đã đăng ký gói dịch vụ tập luyện tái ký - 12 tháng (52 tuần) có giá trị 65,000,000 VND với hình thức thanh toán định kỳ theo tuần. Số tiền thanh toán định kỳ được xác định như sau:
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <p>65,000,000 VND: 52 = 1,250,000 VND/tuần (đã bao gồm thuế GTGT).</p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <h3>C. HIỆU LỰC VÀ VI PHẠM PHỤ LỤC HỢP ĐỒNG</h3>
+                                <ul>
+                                    <li>
+                                        <p>Bằng việc ký kết Phụ lục này, Công ty và Hội viên đồng ý với, và sẽ chịu sự ràng buộc pháp lý bởi, tất cả các điều khoản và điều kiện được quy định tại Phụ lục này kể từ ngày ký.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Hội viên đồng ý và ủy quyền 25 FIT hoặc bên thứ ba do 25 FIT chỉ định thực hiện thu hộ 25 FIT.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Phí Gói dịch vụ sẽ được thu tự động định kỳ khoản tiền tương ứng với Gói dịch vụ đã đăng ký với hình thức thanh toán định kỳ trong 52 tuần.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>Việc thu phí tự động định kỳ vẫn có hiệu lực cho đến khi Hội viên đưa ra thông báo trước ít nhất 7 ngày làm việc, để chấm dứt ủy quyền này; tuy nhiên, Việc chấm dứt ủy quyền sẽ không chấm dứt nghĩa vụ thanh toán số tiền đến hạn cho các giao dịch Hội viên đã cam kết thực hiện.</p>
+                                    </li>
+                                    <li>
+                                        <p>Hội viên cam kết thanh toán đầy đủ theo đúng thời hạn thanh toán.
+                                        </p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
