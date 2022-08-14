@@ -6,12 +6,22 @@
 
 #wrapwrap {
     #wrap {
-        &.oe_empty {
+        .o_homepage_editor_welcome_message {
+            position: relative;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h2,
+            p {
+                color: #ffffff;
+            }
             background-image: url("/theme_25fit/static/src/images/bg-hero-banner-01.png");
             background-size: cover;
             background-position: center center;
+            max-width: 100%;
             &:after {
-                content: "";
+                display: block;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -22,17 +32,7 @@
                     rgba(34, 34, 34, 0.5) 19.17%,
                     #222222 100%
                 );
-            }
-        }
-        .o_homepage_editor_welcome_message {
-            position: relative;
-            z-index: 10;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            h2,
-            p {
-                color: #ffffff;
+                z-index: -1;
             }
         }
     }
@@ -406,15 +406,15 @@
         }
     }
     .content__desc {
-        font-style: italic;
+        font-size: 1.125rem;
         max-width: 750px;
         width: 100%;
         margin: 16px auto 0;
         text-align: center;
         &::before {
-            color: map-get($map: $custom-theme-colors, $key: "neutral-grey-3");
+            color: map-get($map: $custom-theme-colors, $key: "neutral-grey-2");
             display: block;
-            font-size: 44px;
+            font-size: 2.75rem;
             content: "\f10e";
             font-family: "FontAwesome";
         }
@@ -875,6 +875,7 @@
                 border-radius: 50%;
                 background-color: #ffffff;
                 bottom: -8px;
+                z-index: 10;
             }
             @media (max-width: 575.98px) {
                 font-size: 18px;
